@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | The Kids Dentist Singapore</title>
+    <meta name="description" content="Comprehensive pediatric dental services including preventive care, restorative treatments, sedation options, orthodontics, and emergency care.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        
+        .page-hero p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .service-detail-section {
+            padding: 100px 0;
+            scroll-margin-top: 100px;
+        }
+        
+        .service-detail-section:nth-child(even) {
+            background: var(--bg-secondary);
+        }
+        
+        .service-detail-section:nth-child(odd) {
+            background: var(--white);
+        }
+        
+        .service-detail-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+        
+        .service-detail-content.reverse {
+            direction: rtl;
+        }
+        
+        .service-detail-content.reverse > * {
+            direction: ltr;
+        }
+        
+        .service-visual {
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            border-radius: var(--radius-lg);
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .service-text h2 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 42px;
+            margin-bottom: 16px;
+        }
+        
+        .service-intro {
+            font-size: 18px;
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+        
+        .service-list {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+        
+        .service-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+        }
+        
+        .service-detail-section:nth-child(even) .service-list li {
+            background: var(--white);
+        }
+        
+        .service-list-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .service-list-text {
+            flex: 1;
+        }
+        
+        .service-list-text h4 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: var(--text);
+        }
+        
+        .service-list-text p {
+            font-size: 15px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        .service-benefits {
+            background: var(--bg-tertiary);
+            padding: 24px;
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--primary);
+        }
+        
+        .service-benefits h3 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .service-benefits ul {
+            list-style: none;
+        }
+        
+        .service-benefits li {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-bottom: 10px;
+            color: var(--text-light);
+            font-size: 15px;
+        }
+        
+        .service-benefits li:before {
+            content: '✓';
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        @media (max-width: 1024px) {
+            .service-detail-content,
+            .service-detail-content.reverse {
+                grid-template-columns: 1fr;
+                direction: ltr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content container">
+            <a href="index.html" class="logo">The Kids Dentist</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="tel:+6562357279" class="cta-btn">Call: 6235 7279</a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive pediatric dental care tailored to your child's unique needs, from preventive treatments to complex procedures.</p>
+        </div>
+    </section>
+
+    <!-- Preventive Care -->
+    <section class="service-detail-section" id="preventive">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-visual">🛡️</div>
+                <div class="service-text">
+                    <h2>Preventive Care</h2>
+                    <p class="service-intro">
+                        Prevention is the foundation of excellent oral health. Our comprehensive preventive care program helps protect your child's teeth from cavities and establishes healthy habits that last a lifetime.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Regular Check-ups & Cleanings</h4>
+                                <p>Professional teeth cleaning and comprehensive oral examinations every 6 months to detect and prevent dental problems early.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Fluoride Application</h4>
+                                <p>Fluoride varnish or Silver Diamine Fluoride (SDF) treatments to strengthen tooth enamel and prevent decay.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Pit and Fissure Sealants</h4>
+                                <p>Protective coating applied to the chewing surfaces of back teeth to prevent cavities in hard-to-clean grooves.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Oral Hygiene Education</h4>
+                                <p>Age-appropriate instruction on proper brushing, flossing, and dietary habits for optimal oral health.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restorative Treatment -->
+    <section class="service-detail-section" id="restorative">
+        <div class="container">
+            <div class="service-detail-content reverse">
+                <div class="service-visual">✨</div>
+                <div class="service-text">
+                    <h2>Restorative Treatment</h2>
+                    <p class="service-intro">
+                        When decay or damage occurs, we use the latest materials and techniques to restore your child's teeth to full function and natural appearance.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>White Fillings (Mercury-Free)</h4>
+                                <p>Tooth-colored composite fillings that blend seamlessly with natural teeth, containing no mercury for maximum safety.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Aesthetic White Zirconia Crowns</h4>
+                                <p>Premium tooth-colored crowns that provide strength and durability while maintaining a natural, beautiful appearance.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Stainless Steel Crowns</h4>
+                                <p>Durable, pre-formed crowns for baby teeth that require extensive restoration, ideal for back teeth.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Cavity Risk Assessment</h4>
+                                <p>Comprehensive evaluation to identify risk factors and develop personalized prevention strategies.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Root Canal Treatment -->
+    <section class="service-detail-section" id="rootcanal">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-visual">🦷</div>
+                <div class="service-text">
+                    <h2>Root Canal Treatment for Baby Teeth</h2>
+                    <p class="service-intro">
+                        When tooth decay reaches the nerve of a baby tooth, specialized root canal treatment can save the tooth and avoid premature loss that could affect jaw development and permanent tooth alignment.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Pulpotomy</h4>
+                                <p>Removal of infected pulp from the crown portion of the tooth while preserving healthy pulp in the roots. Often called a "baby root canal."</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Pulpectomy</h4>
+                                <p>Complete removal of infected pulp from both crown and roots when decay has spread throughout the tooth's nerve system.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>Why Save Baby Teeth?</h3>
+                        <ul>
+                            <li>Maintain proper spacing for permanent teeth</li>
+                            <li>Support normal jaw development</li>
+                            <li>Preserve chewing function and nutrition</li>
+                            <li>Prevent speech development issues</li>
+                            <li>Avoid costly orthodontic problems later</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sedation Options -->
+    <section class="service-detail-section" id="sedation">
+        <div class="container">
+            <div class="service-detail-content reverse">
+                <div class="service-visual">💤</div>
+                <div class="service-text">
+                    <h2>Sedation Options</h2>
+                    <p class="service-intro">
+                        For anxious children or those requiring extensive treatment, we offer safe, effective sedation options to ensure a stress-free, comfortable dental experience.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Nitrous Oxide ("Laughing Gas")</h4>
+                                <p>Mild sedative gas that helps children relax while remaining conscious and responsive. Effects wear off quickly after treatment.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Oral Sedation</h4>
+                                <p>Medication administered by mouth before the appointment to reduce anxiety and increase cooperation during treatment.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>General Anesthesia (GA)</h4>
+                                <p>Complete sedation in a hospital setting for children requiring extensive dental work or those with severe dental anxiety or special needs.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>When Sedation May Be Recommended</h3>
+                        <ul>
+                            <li>Severe dental anxiety or phobia</li>
+                            <li>Very young children requiring extensive treatment</li>
+                            <li>Children with special needs or medical conditions</li>
+                            <li>Multiple procedures in one visit</li>
+                            <li>Traumatic dental injuries requiring immediate treatment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Orthodontics -->
+    <section class="service-detail-section" id="orthodontics">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-visual">😁</div>
+                <div class="service-text">
+                    <h2>Orthodontic Services</h2>
+                    <p class="service-intro">
+                        Early orthodontic assessment and intervention can prevent more serious problems and reduce the need for extensive treatment later.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Early Orthodontic Assessment</h4>
+                                <p>Evaluation of jaw growth and tooth development to identify potential issues that benefit from early intervention.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Removable Appliances</h4>
+                                <p>Space maintainers and other appliances to guide proper tooth eruption and jaw development.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Habit Correction</h4>
+                                <p>Treatment to address thumb-sucking, tongue-thrusting, and other oral habits that affect tooth alignment.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>Benefits of Early Orthodontic Intervention</h3>
+                        <ul>
+                            <li>Guide jaw growth in optimal direction</li>
+                            <li>Create space for proper tooth eruption</li>
+                            <li>Reduce risk of impacted permanent teeth</li>
+                            <li>Improve facial symmetry and aesthetics</li>
+                            <li>Potentially reduce need for tooth extractions</li>
+                            <li>Shorter treatment time with braces later</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Care -->
+    <section class="service-detail-section" id="emergency">
+        <div class="container">
+            <div class="service-detail-content reverse">
+                <div class="service-visual">⚡</div>
+                <div class="service-text">
+                    <h2>Emergency Dental Care</h2>
+                    <p class="service-intro">
+                        Dental emergencies can happen anytime. We're here to provide immediate care for knocked-out teeth, fractures, and other urgent dental situations.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Knocked-Out Teeth</h4>
+                                <p>Immediate treatment to save and re-implant permanent teeth, with the best outcomes when treated within 30 minutes.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Fractured Teeth Management</h4>
+                                <p>Restoration of chipped, cracked, or broken teeth to prevent infection and restore function and appearance.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Dental Pain Relief</h4>
+                                <p>Quick diagnosis and treatment of toothaches, abscesses, and other sources of dental pain.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Soft Tissue Injuries</h4>
+                                <p>Treatment for cuts to lips, cheeks, tongue, and gums often associated with dental trauma.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>What to Do in a Dental Emergency</h3>
+                        <ul>
+                            <li>Call us immediately at 6235 7279</li>
+                            <li>For knocked-out permanent teeth, place back in socket if possible</li>
+                            <li>Keep tooth moist in milk or saliva</li>
+                            <li>Apply cold compress for swelling</li>
+                            <li>Seek treatment within 30 minutes for best outcomes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Needs & Medical Conditions -->
+    <section class="service-detail-section" id="specialneeds">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-visual">🌈</div>
+                <div class="service-text">
+                    <h2>Special Needs & Complex Medical Care</h2>
+                    <p class="service-intro">
+                        We have extensive experience providing compassionate, specialized dental care for children with special needs and complex medical conditions.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Specialized Approach</h4>
+                                <p>Customized treatment plans and behavior management techniques tailored to each child's unique needs and abilities.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Dentistry for Sick Children</h4>
+                                <p>Dental care for children with complex medical conditions, coordinating with other healthcare providers for comprehensive treatment.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Flexible Appointment Scheduling</h4>
+                                <p>Accommodations for longer appointments, quiet environments, or off-peak times as needed.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Family-Centered Care</h4>
+                                <p>Close collaboration with parents and caregivers to ensure comfortable, successful dental experiences.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>Conditions We Treat</h3>
+                        <ul>
+                            <li>Autism Spectrum Disorder</li>
+                            <li>Cerebral Palsy</li>
+                            <li>Down Syndrome</li>
+                            <li>ADHD and behavioral challenges</li>
+                            <li>Heart conditions and other medical complexities</li>
+                            <li>Developmental delays</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Dentistry -->
+    <section class="service-detail-section" id="sports">
+        <div class="container">
+            <div class="service-detail-content reverse">
+                <div class="service-visual">🏃</div>
+                <div class="service-text">
+                    <h2>Sports Dentistry & Mouthguards</h2>
+                    <p class="service-intro">
+                        Protect your child's smile during sports and physical activities with custom-fitted mouthguards designed for maximum comfort and protection.
+                    </p>
+                    
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Custom Mouthguards</h4>
+                                <p>Professionally designed and fitted mouthguards that provide superior protection compared to store-bought options.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Sports Injury Prevention</h4>
+                                <p>Education on protecting teeth during contact sports, skating, cycling, and other activities.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-list-icon">✓</div>
+                            <div class="service-list-text">
+                                <h4>Comfortable Fit</h4>
+                                <p>Custom molding ensures mouthguards stay in place, allow normal breathing, and don't interfere with performance.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="service-benefits">
+                        <h3>Why Custom Mouthguards?</h3>
+                        <ul>
+                            <li>Prevent tooth fractures and knockouts</li>
+                            <li>Reduce risk of jaw injuries</li>
+                            <li>Protect orthodontic work</li>
+                            <li>More comfortable than generic options</li>
+                            <li>Better fit means better protection</li>
+                            <li>Available in fun colors and designs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Schedule Your Child's Appointment?</h2>
+                <p>
+                    Our specialist team is here to provide the comprehensive care your child deserves.
+                </p>
+                <div class="cta-buttons">
+                    <a href="tel:+6562357279" class="btn-white">
+                        <span class="btn-icon">📞</span>
+                        Call: 6235 7279
+                    </a>
+                    <a href="contact.html" class="btn-outline-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>The Kids Dentist</h3>
+                    <p>
+                        Singapore's first dedicated pediatric dentistry practice since 2006. 
+                        Specialist care for infants, children, and adolescents.
+                    </p>
+                    <div class="footer-motto">
+                        <span class="motto-icon">✨</span>
+                        <span class="motto-text">Fun dentistry for kids</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#preventive">Preventive Care</a></li>
+                        <li><a href="services.html#restorative">Restorative Treatment</a></li>
+                        <li><a href="services.html#sedation">Sedation Options</a></li>
+                        <li><a href="services.html#orthodontics">Orthodontics</a></li>
+                        <li><a href="services.html#specialneeds">Special Needs Care</a></li>
+                        <li><a href="services.html#emergency">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <strong>Location:</strong><br>
+                            Camden Medical Centre #13-06<br>
+                            1 Orchard Boulevard<br>
+                            Singapore 248649
+                        </li>
+                        <li>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+6562357279">6235 7279</a>
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon-Fri: 9am - 5pm<br>
+                            Sat: 9am - 12:30pm<br>
+                            Sun: Closed
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Kids Dentist. All rights reserved.</p>
+                <div class="footer-credits">
+                    <span>Website by [Your Agency Name]</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

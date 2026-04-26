@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | The Kids Dentist Singapore</title>
+    <meta name="description" content="Frequently asked questions about pediatric dentistry, first visits, costs, and children's dental care at The Kids Dentist.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        
+        .page-hero p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .faq-section {
+            padding: 100px 0;
+            background: var(--white);
+        }
+        
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .faq-category {
+            margin-bottom: 60px;
+        }
+        
+        .faq-category h2 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 32px;
+            margin-bottom: 32px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .faq-category-icon {
+            font-size: 36px;
+        }
+        
+        .faq-accordion-item {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .faq-accordion-item:hover {
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .faq-question {
+            padding: 24px 28px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            user-select: none;
+        }
+        
+        .faq-question h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text);
+            margin: 0;
+        }
+        
+        .faq-toggle {
+            font-size: 24px;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .faq-accordion-item.active .faq-toggle {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-accordion-item.active .faq-answer {
+            max-height: 1000px;
+            padding: 0 28px 24px 28px;
+        }
+        
+        .faq-answer p {
+            color: var(--text-light);
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .faq-answer p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .faq-answer ul {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        
+        .faq-answer li {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 8px;
+        }
+        
+        .faq-contact {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 60px 48px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            color: var(--white);
+            margin-top: 60px;
+        }
+        
+        .faq-contact h2 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 32px;
+            margin-bottom: 16px;
+            color: var(--white);
+        }
+        
+        .faq-contact p {
+            font-size: 18px;
+            margin-bottom: 32px;
+            opacity: 0.95;
+        }
+        
+        .faq-contact-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 768px) {
+            .faq-question {
+                padding: 20px;
+            }
+            
+            .faq-question h3 {
+                font-size: 16px;
+            }
+            
+            .faq-accordion-item.active .faq-answer {
+                padding: 0 20px 20px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content container">
+            <a href="index.html" class="logo">The Kids Dentist</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="tel:+6562357279" class="cta-btn">Call: 6235 7279</a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about pediatric dentistry and our practice.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-container">
+                
+                <!-- About Our Practice -->
+                <div class="faq-category">
+                    <h2><span class="faq-category-icon">🏥</span> About Our Practice</h2>
+                    
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What is a paediatric dentist?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A paediatric dentist is a dental specialist who has completed additional years of training beyond dental school to focus exclusively on the oral health of children from infancy through adolescence.</p>
+                            <p>This specialized training includes child psychology, growth and development, and techniques for managing children's behavior in the dental setting. Paediatric dentists are experts in treating the unique dental needs of infants, children, and teenagers, including those with special healthcare needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What age group of children do you treat?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>At The Kids Dentist, we provide specialized dental care for children of all ages, from infants through adolescence (typically birth to 18 years old).</p>
+                            <p>We also have extensive experience treating children with special needs and those with complex medical conditions, regardless of age. Our team is trained to handle the unique needs of each developmental stage.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>Can I learn more about your staff?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! You can learn more about our specialist paediatric dentists and support staff on our About Us page.</p>
+                            <p>Our team includes Dr. Rashid Tahir (Founding President of the Society for Paediatric Dentistry Singapore) and Dr. Sylvia Koh, along with our experienced dental assistants: Seryna, Dianne, Min Yu, Joscelin, and Shasha. Each member of our team is dedicated to making your child's dental experience positive and comfortable.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- First Visit -->
+                <div class="faq-category">
+                    <h2><span class="faq-category-icon">🦷</span> First Dental Visit</h2>
+                    
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>When should my child first see a dentist?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We recommend that your child's first dental visit should occur by their first birthday or within six months of their first tooth erupting, as advocated by the American Academy of Pediatric Dentistry.</p>
+                            <p>Early dental visits are crucial for several reasons:</p>
+                            <ul>
+                                <li>Establish a dental home and build familiarity with the dental environment</li>
+                                <li>Allow early detection of potential problems</li>
+                                <li>Provide parents with guidance on proper oral care for infants</li>
+                                <li>Prevent dental anxiety by creating positive early experiences</li>
+                                <li>Receive advice on teething, pacifier use, and dietary habits</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>How should I prepare my child for their first visit?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Parents play an important role in making the first dental visit a positive experience. Here are our recommendations:</p>
+                            <ul>
+                                <li><strong>Keep it positive:</strong> Tell your child the dentist will count and clean their teeth and show them how to care for their smile</li>
+                                <li><strong>Avoid negative words:</strong> Don't use words like "needle," "pain," "drill," or "hurt" as these can cause unnecessary fear</li>
+                                <li><strong>Read books:</strong> Share age-appropriate books about visiting the dentist</li>
+                                <li><strong>Stay calm:</strong> Children pick up on parental anxiety, so remain relaxed and confident</li>
+                                <li><strong>Be honest:</strong> Don't promise rewards if your child "doesn't cry" – this suggests there's something to cry about</li>
+                            </ul>
+                            <p>Our team uses child-friendly language to explain procedures in a pleasant, non-frightening way.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What happens during the first visit?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Your child's first visit will include:</p>
+                            <ul>
+                                <li>A complete oral examination performed by our paediatric dentists</li>
+                                <li>Assessment of tooth development and jaw growth</li>
+                                <li>Gentle cleaning if appropriate for the child's age and cooperation</li>
+                                <li>Discussion of proper oral hygiene techniques</li>
+                                <li>Guidance on nutrition, pacifier use, and habits affecting oral health</li>
+                                <li>Answers to any questions or concerns you may have</li>
+                            </ul>
+                            <p>The goal is to make your child comfortable while establishing a foundation for excellent oral health.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dental Care -->
+                <div class="faq-category">
+                    <h2><span class="faq-category-icon">✨</span> Dental Care Questions</h2>
+                    
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>Why are primary (baby) teeth so important?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Although baby teeth are temporary, they play crucial roles in your child's development:</p>
+                            <ul>
+                                <li><strong>Nutrition:</strong> Healthy teeth are essential for proper chewing and digestion</li>
+                                <li><strong>Speech development:</strong> Teeth help children learn to speak clearly</li>
+                                <li><strong>Space maintenance:</strong> Baby teeth hold space for permanent teeth and guide them into proper position</li>
+                                <li><strong>Jaw development:</strong> Proper tooth alignment helps jaw bones develop correctly</li>
+                                <li><strong>Self-esteem:</strong> A healthy smile contributes to confidence and social development</li>
+                                <li><strong>Oral health habits:</strong> Care for baby teeth establishes good habits for life</li>
+                            </ul>
+                            <p>Premature loss of baby teeth can lead to crowding of permanent teeth and may require orthodontic treatment later.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>How can I prevent cavities in my child's teeth?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Cavity prevention involves several key practices:</p>
+                            <ul>
+                                <li><strong>Regular brushing:</strong> Brush twice daily with fluoride toothpaste (pea-sized amount for children under 6)</li>
+                                <li><strong>Flossing:</strong> Start flossing when teeth touch each other</li>
+                                <li><strong>Healthy diet:</strong> Limit sugary snacks and drinks; choose water over juice</li>
+                                <li><strong>Regular check-ups:</strong> Visit every 6 months for professional cleaning and examination</li>
+                                <li><strong>Fluoride treatments:</strong> Professional applications strengthen tooth enamel</li>
+                                <li><strong>Dental sealants:</strong> Protective coating on back teeth prevents decay in grooves</li>
+                                <li><strong>Avoid bottle sleeping:</strong> Never put your child to bed with a bottle of milk or juice</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What should I do if my child knocks out a tooth?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>For permanent teeth (adult teeth):</p>
+                            <ul>
+                                <li>Find the tooth and handle it by the crown (top), not the root</li>
+                                <li>If dirty, gently rinse with milk or saliva (never use water or soap)</li>
+                                <li>Try to place the tooth back in the socket immediately</li>
+                                <li>If you can't replant it, keep it moist in milk or saliva</li>
+                                <li><strong>Call us immediately at 6235 7279</strong></li>
+                                <li>Seek treatment within 30 minutes for the best chance of saving the tooth</li>
+                            </ul>
+                            <p>For baby teeth:</p>
+                            <ul>
+                                <li>Do not attempt to replant baby teeth (can damage permanent tooth underneath)</li>
+                                <li>Control bleeding with clean gauze</li>
+                                <li>Call us for an evaluation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>When will my child lose their baby teeth?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Children typically begin losing baby teeth around age 6, though this can vary. The process usually follows the same order as tooth eruption, with lower front teeth typically falling out first.</p>
+                            <p>The timeline generally follows this pattern:</p>
+                            <ul>
+                                <li>Ages 6-7: Lower and upper front teeth (incisors)</li>
+                                <li>Ages 9-11: First molars and canines</li>
+                                <li>Ages 10-12: Second molars</li>
+                            </ul>
+                            <p>Most children have all their permanent teeth (except wisdom teeth) by age 12-13. If teeth are significantly early or late, we can assess whether intervention is needed.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Costs & Insurance -->
+                <div class="faq-category">
+                    <h2><span class="faq-category-icon">💰</span> Costs & Payment</h2>
+                    
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What are the charges like at The Kids Dentist?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>As a specialist pediatric dental practice with highly trained dentists and specialized equipment, our fees reflect the advanced level of care we provide. Costs vary depending on the specific treatment needed.</p>
+                            <p>A regular check-up with our specialist pediatric dentists typically ranges from $80 to $150. More complex treatments will be discussed and quoted before proceeding. We believe in transparent pricing and will always explain costs before beginning treatment.</p>
+                            <p>Please call us at 6235 7279 for specific pricing information or to discuss payment options.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>Do you accept insurance?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We work with most insurance providers. Please contact us with your insurance information, and we'll be happy to verify your coverage and help you understand your benefits.</p>
+                            <p>We can provide detailed receipts for you to submit to your insurance company for reimbursement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Questions -->
+                <div class="faq-category">
+                    <h2><span class="faq-category-icon">🔧</span> Treatment Questions</h2>
+                    
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>Does my child need X-rays?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Dental X-rays are an important diagnostic tool that help us:</p>
+                            <ul>
+                                <li>Detect cavities between teeth that can't be seen visually</li>
+                                <li>Monitor the development of permanent teeth</li>
+                                <li>Assess jaw development and tooth positioning</li>
+                                <li>Identify infections or abscesses</li>
+                                <li>Plan orthodontic treatment</li>
+                            </ul>
+                            <p>We use digital X-rays that emit significantly less radiation than traditional X-rays. The amount of radiation exposure is minimal and considered very safe. We only take X-rays when clinically necessary and follow strict guidelines to minimize exposure.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>What sedation options do you offer?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer several sedation options to ensure your child's comfort:</p>
+                            <ul>
+                                <li><strong>Nitrous Oxide (Laughing Gas):</strong> Mild sedative that helps children relax while remaining conscious. Effects wear off quickly after treatment.</li>
+                                <li><strong>Oral Sedation:</strong> Medication given by mouth before the appointment to reduce anxiety and increase cooperation.</li>
+                                <li><strong>General Anesthesia (GA):</strong> Complete sedation in a hospital setting for children requiring extensive treatment or those with severe anxiety or special needs.</li>
+                            </ul>
+                            <p>Our dentists will discuss which option is most appropriate for your child's needs and answer all your questions about safety and procedures.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <div class="faq-question">
+                            <h3>My child is afraid of the dentist. Can you help?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Managing dental anxiety is one of our specialties. As pediatric dentists, we're trained in child psychology and behavior management techniques.</p>
+                            <p>We help anxious children through:</p>
+                            <ul>
+                                <li>Creating a warm, welcoming, child-friendly environment</li>
+                                <li>Using age-appropriate language to explain procedures</li>
+                                <li>Building trust gradually – we never force treatment</li>
+                                <li>Positive reinforcement and encouragement</li>
+                                <li>Distraction techniques and comfort measures</li>
+                                <li>Sedation options when appropriate</li>
+                                <li>Parent coaching to avoid anxiety-inducing language</li>
+                            </ul>
+                            <p>Many children who were initially fearful become enthusiastic about dental visits after experiencing our gentle, patient approach.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Box -->
+                <div class="faq-contact">
+                    <h2>Still Have Questions?</h2>
+                    <p>We're here to help! Contact our friendly team for personalized answers to your questions.</p>
+                    <div class="faq-contact-buttons">
+                        <a href="tel:+6562357279" class="btn-white">
+                            <span class="btn-icon">📞</span>
+                            Call: 6235 7279
+                        </a>
+                        <a href="contact.html" class="btn-outline-white">Send Us a Message</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>The Kids Dentist</h3>
+                    <p>
+                        Singapore's first dedicated pediatric dentistry practice since 2006. 
+                        Specialist care for infants, children, and adolescents.
+                    </p>
+                    <div class="footer-motto">
+                        <span class="motto-icon">✨</span>
+                        <span class="motto-text">Fun dentistry for kids</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#preventive">Preventive Care</a></li>
+                        <li><a href="services.html#restorative">Restorative Treatment</a></li>
+                        <li><a href="services.html#sedation">Sedation Options</a></li>
+                        <li><a href="services.html#orthodontics">Orthodontics</a></li>
+                        <li><a href="services.html#specialneeds">Special Needs Care</a></li>
+                        <li><a href="services.html#emergency">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <strong>Location:</strong><br>
+                            Camden Medical Centre #13-06<br>
+                            1 Orchard Boulevard<br>
+                            Singapore 248649
+                        </li>
+                        <li>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+6562357279">6235 7279</a>
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon-Fri: 9am - 5pm<br>
+                            Sat: 9am - 12:30pm<br>
+                            Sun: Closed
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Kids Dentist. All rights reserved.</p>
+                <div class="footer-credits">
+                    <span>Website by [Your Agency Name]</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | The Kids Dentist Singapore</title>
+    <meta name="description" content="View our modern, child-friendly dental practice and see the smiling faces of our happy patients at The Kids Dentist.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        
+        .page-hero p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .gallery-section {
+            padding: 100px 0;
+            background: var(--white);
+        }
+        
+        .gallery-intro {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            text-align: center;
+        }
+        
+        .gallery-intro p {
+            font-size: 18px;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        
+        .gallery-categories {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+        
+        .category-btn {
+            background: var(--bg-secondary);
+            color: var(--text);
+            padding: 12px 28px;
+            border-radius: var(--radius-sm);
+            border: 2px solid transparent;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 15px;
+            transition: var(--transition);
+        }
+        
+        .category-btn:hover,
+        .category-btn.active {
+            background: var(--white);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            text-align: center;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .gallery-item-icon {
+            font-size: 80px;
+            margin-bottom: 16px;
+        }
+        
+        .gallery-item-label {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+        
+        .gallery-item-desc {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        .gallery-note {
+            background: var(--bg-secondary);
+            padding: 48px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            margin-top: 60px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .gallery-note h3 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        
+        .gallery-note p {
+            font-size: 16px;
+            color: var(--text-light);
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto 24px;
+        }
+        
+        @media (max-width: 1024px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .gallery-categories {
+                flex-direction: column;
+            }
+            
+            .category-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content container">
+            <a href="index.html" class="logo">The Kids Dentist</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="tel:+6562357279" class="cta-btn">Call: 6235 7279</a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Take a peek at our child-friendly practice and see why kids love visiting The Kids Dentist.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-intro">
+                <p>
+                    Explore our modern, welcoming practice designed specifically for children. From our colorful waiting area to our state-of-the-art treatment rooms, every detail is crafted to make dental visits fun and comfortable for kids.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Reception Area -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">🎨</div>
+                    <div class="gallery-item-label">Reception Area</div>
+                    <div class="gallery-item-desc">Bright, colorful welcome space where the fun begins</div>
+                </div>
+
+                <!-- Waiting Room -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">🎮</div>
+                    <div class="gallery-item-label">Play Area</div>
+                    <div class="gallery-item-desc">Interactive play space to keep children entertained</div>
+                </div>
+
+                <!-- Treatment Room -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">🪥</div>
+                    <div class="gallery-item-label">Treatment Rooms</div>
+                    <div class="gallery-item-desc">Modern, child-friendly dental suites with ceiling TVs</div>
+                </div>
+
+                <!-- Team Photo -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">👨‍⚕️👩‍⚕️</div>
+                    <div class="gallery-item-label">Our Team</div>
+                    <div class="gallery-item-desc">Meet the caring specialists who make it all happen</div>
+                </div>
+
+                <!-- Happy Kids -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">😊🎉</div>
+                    <div class="gallery-item-label">Happy Patients</div>
+                    <div class="gallery-item-desc">Celebrating healthy smiles with our young patients</div>
+                </div>
+
+                <!-- Equipment -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">🔬</div>
+                    <div class="gallery-item-label">State-of-the-Art Equipment</div>
+                    <div class="gallery-item-desc">Latest pediatric dental technology for gentle care</div>
+                </div>
+
+                <!-- Rewards Corner -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">🏆</div>
+                    <div class="gallery-item-label">Rewards Corner</div>
+                    <div class="gallery-item-desc">Special treats for our brave little patients</div>
+                </div>
+
+                <!-- Education Display -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">📚</div>
+                    <div class="gallery-item-label">Learning Zone</div>
+                    <div class="gallery-item-desc">Fun, interactive oral health education displays</div>
+                </div>
+
+                <!-- Consultation Room -->
+                <div class="gallery-item">
+                    <div class="gallery-item-icon">💬</div>
+                    <div class="gallery-item-label">Consultation Room</div>
+                    <div class="gallery-item-desc">Private space for parent discussions</div>
+                </div>
+            </div>
+
+            <div class="gallery-note">
+                <h3>📸 Professional Photography Coming Soon</h3>
+                <p>
+                    We're currently updating our gallery with professional photographs of our practice. In the meantime, we invite you to schedule a personal tour of our facilities! Contact us to arrange a visit and see our child-friendly environment in person.
+                </p>
+                <a href="contact.html" class="btn-primary">Schedule a Tour</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Our Welcoming Practice?</h2>
+                <p>
+                    Schedule a visit and see why families trust The Kids Dentist for their children's dental care.
+                </p>
+                <div class="cta-buttons">
+                    <a href="tel:+6562357279" class="btn-white">
+                        <span class="btn-icon">📞</span>
+                        Call: 6235 7279
+                    </a>
+                    <a href="contact.html" class="btn-outline-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>The Kids Dentist</h3>
+                    <p>
+                        Singapore's first dedicated pediatric dentistry practice since 2006. 
+                        Specialist care for infants, children, and adolescents.
+                    </p>
+                    <div class="footer-motto">
+                        <span class="motto-icon">✨</span>
+                        <span class="motto-text">Fun dentistry for kids</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#preventive">Preventive Care</a></li>
+                        <li><a href="services.html#restorative">Restorative Treatment</a></li>
+                        <li><a href="services.html#sedation">Sedation Options</a></li>
+                        <li><a href="services.html#orthodontics">Orthodontics</a></li>
+                        <li><a href="services.html#specialneeds">Special Needs Care</a></li>
+                        <li><a href="services.html#emergency">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <strong>Location:</strong><br>
+                            Camden Medical Centre #13-06<br>
+                            1 Orchard Boulevard<br>
+                            Singapore 248649
+                        </li>
+                        <li>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+6562357279">6235 7279</a>
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon-Fri: 9am - 5pm<br>
+                            Sat: 9am - 12:30pm<br>
+                            Sun: Closed
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Kids Dentist. All rights reserved.</p>
+                <div class="footer-credits">
+                    <span>Website by [Your Agency Name]</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

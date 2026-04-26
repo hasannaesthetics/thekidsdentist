@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Kids Dentist Singapore</title>
+    <meta name="description" content="Meet our specialist pediatric dentists and learn about Singapore's first dedicated pediatric dentistry practice since 2006.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            text-align: center;
+        }
+        
+        .page-hero h1 {
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        
+        .page-hero p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .our-story {
+            padding: 100px 0;
+            background: var(--white);
+        }
+        
+        .story-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .story-content p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 24px;
+        }
+        
+        .story-highlights {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 48px;
+        }
+        
+        .highlight-card {
+            background: var(--bg-secondary);
+            padding: 32px 24px;
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+        
+        .highlight-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .highlight-card h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        
+        .highlight-card p {
+            font-size: 15px;
+            color: var(--text-light);
+            margin: 0;
+        }
+        
+        .team-section {
+            padding: 100px 0;
+            background: var(--bg-secondary);
+        }
+        
+        .dentist-full-bio {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            margin-bottom: 60px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .bio-grid {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 0;
+        }
+        
+        .bio-image {
+            height: 100%;
+            min-height: 500px;
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+        
+        .bio-image .placeholder-icon {
+            font-size: 120px;
+        }
+        
+        .bio-content {
+            padding: 48px;
+        }
+        
+        .bio-header {
+            margin-bottom: 32px;
+        }
+        
+        .bio-header h2 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+        
+        .bio-title {
+            color: var(--primary);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .bio-credentials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        
+        .bio-credential {
+            background: var(--bg-secondary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .bio-text {
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+        
+        .bio-text p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .bio-highlights {
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 2px solid var(--bg-secondary);
+        }
+        
+        .bio-highlights h3 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .bio-highlights ul {
+            list-style: none;
+            display: grid;
+            gap: 12px;
+        }
+        
+        .bio-highlights li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            color: var(--text-light);
+            font-size: 15px;
+        }
+        
+        .bio-highlights li:before {
+            content: '✓';
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .staff-section {
+            padding: 100px 0;
+            background: var(--white);
+        }
+        
+        .staff-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+        
+        .staff-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .staff-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .staff-image {
+            height: 280px;
+            background: linear-gradient(135deg, var(--accent), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+        }
+        
+        .staff-info {
+            padding: 24px;
+            text-align: center;
+        }
+        
+        .staff-info h3 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        
+        .staff-role {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        
+        .staff-info p {
+            color: var(--text-light);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .practice-section {
+            padding: 100px 0;
+            background: var(--bg-secondary);
+        }
+        
+        .practice-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .practice-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 48px;
+        }
+        
+        .practice-feature {
+            background: var(--white);
+            padding: 32px;
+            border-radius: var(--radius-md);
+            display: flex;
+            gap: 20px;
+        }
+        
+        .practice-feature-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            flex-shrink: 0;
+        }
+        
+        .practice-feature-text h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        
+        .practice-feature-text p {
+            font-size: 15px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 1024px) {
+            .bio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .bio-image {
+                min-height: 400px;
+            }
+            
+            .staff-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .practice-features {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 120px 0 60px;
+            }
+            
+            .story-highlights {
+                grid-template-columns: 1fr;
+            }
+            
+            .bio-content {
+                padding: 32px 24px;
+            }
+            
+            .staff-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content container">
+            <a href="index.html" class="logo">The Kids Dentist</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="tel:+6562357279" class="cta-btn">Call: 6235 7279</a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>About The Kids Dentist</h1>
+            <p>Singapore's first dedicated pediatric dentistry practice, setting the standard for children's dental care since 2006.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="our-story" id="our-practice">
+        <div class="container">
+            <div class="story-content">
+                <div class="section-header" style="text-align: left; margin-bottom: 40px;">
+                    <span class="section-label">Our Story</span>
+                    <h2>Fun Dentistry for Kids</h2>
+                </div>
+                
+                <p>
+                    Founded in 2006, The Kids Dentist was established as Singapore's very first dedicated pediatric dentistry practice. Our mission was simple yet revolutionary: to create a dental practice exclusively focused on children's unique needs, transforming the dental experience from something children feared into something they genuinely enjoyed.
+                </p>
+                
+                <p>
+                    At The Kids Dentist, we abide by our motto: <strong>Fun dentistry for kids</strong>. We are a dedicated team of specialist paediatric dentists and dental support staff providing specialized dentistry for infants, children, and adolescents in Singapore. We also attend to children with special needs and those with complex medical conditions.
+                </p>
+                
+                <p>
+                    Located at the prestigious Camden Medical Centre in Orchard, our practice combines clinical excellence with a warm, child-friendly environment. Every aspect of our practice—from our colorful waiting area to our specially trained staff—is designed with children in mind.
+                </p>
+                
+                <p>
+                    We are committed to ensuring that your child has a positive dental experience each time they visit us. Our approach goes beyond just treating teeth; we build relationships with our young patients, helping them develop healthy oral habits that will last a lifetime.
+                </p>
+                
+                <div class="story-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🏆</div>
+                        <h3>Since 2006</h3>
+                        <p>18+ years of specialized pediatric dental care</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🥇</div>
+                        <h3>First in Singapore</h3>
+                        <p>Pioneering dedicated pediatric practice</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">❤️</div>
+                        <h3>100% Kids</h3>
+                        <p>Exclusively focused on children's dentistry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Dentists -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Specialists</span>
+                <h2>Meet Our Expert Dentists</h2>
+                <p>Board-certified pediatric dental specialists with advanced training and extensive experience.</p>
+            </div>
+
+            <!-- Dr. Rashid Tahir -->
+            <div class="dentist-full-bio" id="dr-rashid-tahir">
+                <div class="bio-grid">
+                    <div class="bio-image">
+                        <span class="placeholder-icon">👨‍⚕️</span>
+                        <span class="placeholder-text">Dr. Rashid Tahir Photo</span>
+                    </div>
+                    <div class="bio-content">
+                        <div class="bio-header">
+                            <h2>Dr. Rashid Tahir</h2>
+                            <p class="bio-title">Specialist Paediatric Dentist | Founding President, Society for Paediatric Dentistry (Singapore)</p>
+                            <div class="bio-credentials">
+                                <span class="bio-credential">BDS (Singapore) 1995</span>
+                                <span class="bio-credential">MSc Children's Dentistry (London) 1998 - Distinction</span>
+                                <span class="bio-credential">3M Dental Postgraduate Prize</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bio-text">
+                            <p>
+                                Dr. Rashid Tahir is a highly accomplished pediatric dentist who has dedicated his entire career to providing specialized oral health care for children since 1997. With over 25 years of experience, he is recognized as one of Singapore's leading authorities in pediatric dentistry.
+                            </p>
+                            
+                            <p>
+                                Dr. Rashid completed his graduate training at the prestigious University of London in 1998, where he was conferred a Master of Science with Distinction in Children's Dentistry (Paedodontics). His exceptional academic performance earned him the 3M Dental Postgraduate Prize for being the best student in his cohort.
+                            </p>
+                            
+                            <p>
+                                From 2002 to 2006, Dr. Rashid served as an Assistant Professor at the Faculty of Dentistry, National University of Singapore (NUS), and as a consultant at the National University Hospital Dental Centre. His passion for teaching continues today as an Adjunct Associate Professor at NUS, where he shapes the next generation of dental professionals.
+                            </p>
+                            
+                            <p>
+                                Beyond clinical practice, Dr. Rashid has held numerous prestigious positions in professional organizations. He is the founding President of the Society for Paediatric Dentistry (Singapore) and served as President of the Pediatric Dentistry Association of Asia (2016-2018). He was also Chairman of the Specialist Accreditation Committee for Paediatric Dentistry (2008-2015) and continues to serve as a Member of the Dental Specialists Accreditation Board.
+                            </p>
+                            
+                            <p>
+                                A proud father of two beautiful young daughters, Dr. Rashid brings both professional expertise and genuine parental understanding to his practice. His personal mission is to make dentistry fun for kids while providing the highest standard of specialized care.
+                            </p>
+                        </div>
+                        
+                        <div class="bio-highlights">
+                            <h3>Key Achievements & Expertise</h3>
+                            <ul>
+                                <li>Founding President, Society for Paediatric Dentistry (Singapore)</li>
+                                <li>President, Pediatric Dentistry Association of Asia (2016-2018)</li>
+                                <li>Chairman, Specialist Accreditation Committee for Paediatric Dentistry (2008-2015)</li>
+                                <li>Member, Dental Specialists Accreditation Board (2017-Present)</li>
+                                <li>Adjunct Associate Professor, National University of Singapore</li>
+                                <li>Former Assistant Professor & Consultant, NUS Dental Centre</li>
+                                <li>MSc with Distinction from University of London</li>
+                                <li>3M Dental Postgraduate Prize Winner</li>
+                                <li>25+ years specializing exclusively in pediatric dentistry</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dr. Sylvia Koh -->
+            <div class="dentist-full-bio" id="dr-sylvia-koh">
+                <div class="bio-grid">
+                    <div class="bio-image">
+                        <span class="placeholder-icon">👩‍⚕️</span>
+                        <span class="placeholder-text">Dr. Sylvia Koh Photo</span>
+                    </div>
+                    <div class="bio-content">
+                        <div class="bio-header">
+                            <h2>Dr. Sylvia Koh</h2>
+                            <p class="bio-title">Specialist Paediatric Dentist</p>
+                            <div class="bio-credentials">
+                                <span class="bio-credential">BDS</span>
+                                <span class="bio-credential">Specialist in Paediatric Dentistry</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bio-text">
+                            <p>
+                                Dr. Sylvia Koh is a dedicated specialist pediatric dentist with extensive experience in providing comprehensive dental care for children of all ages. Her gentle approach and exceptional clinical skills have made her a trusted partner for families throughout Singapore.
+                            </p>
+                            
+                            <p>
+                                With advanced specialist training in pediatric dentistry, Dr. Koh excels in treating children with diverse needs, from infants experiencing their first dental visit to adolescents requiring complex orthodontic intervention. She has a particular expertise in working with children who have special needs and those with complex medical conditions, ensuring they receive compassionate, specialized care.
+                            </p>
+                            
+                            <p>
+                                Dr. Koh's philosophy centers on building trust and making every child feel safe and comfortable. She takes time to explain procedures in age-appropriate language, turning potentially anxiety-inducing appointments into positive experiences. Her patient, understanding demeanor helps even the most nervous children relax in the dental chair.
+                            </p>
+                            
+                            <p>
+                                As an integral part of The Kids Dentist team, Dr. Koh is committed to preventive care and early intervention. She works closely with parents to establish good oral hygiene habits from an early age, setting the foundation for a lifetime of healthy smiles.
+                            </p>
+                        </div>
+                        
+                        <div class="bio-highlights">
+                            <h3>Areas of Expertise</h3>
+                            <ul>
+                                <li>Comprehensive pediatric dental care for all ages</li>
+                                <li>Special needs dentistry</li>
+                                <li>Treatment of children with complex medical conditions</li>
+                                <li>Preventive care and early intervention</li>
+                                <li>Behavior management and anxiety reduction</li>
+                                <li>Age-appropriate communication with young patients</li>
+                                <li>Restorative treatments including crowns and fillings</li>
+                                <li>Early orthodontic assessment and treatment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Staff -->
+    <section class="staff-section" id="our-staff">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Team</span>
+                <h2>Our Dedicated Support Staff</h2>
+                <p>Experienced professionals who make every visit welcoming and comfortable.</p>
+            </div>
+            
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-image">👩‍⚕️</div>
+                    <div class="staff-info">
+                        <h3>Seryna</h3>
+                        <p class="staff-role">Dental Assistant</p>
+                        <p>Dedicated dental assistant with a warm, caring approach. Seryna helps children feel at ease from the moment they arrive.</p>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-image">👩‍⚕️</div>
+                    <div class="staff-info">
+                        <h3>Dianne</h3>
+                        <p class="staff-role">Dental Assistant</p>
+                        <p>Experienced in pediatric care, Dianne's gentle manner and expertise ensure smooth, comfortable procedures.</p>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-image">👩‍⚕️</div>
+                    <div class="staff-info">
+                        <h3>Min Yu</h3>
+                        <p class="staff-role">Dental Assistant</p>
+                        <p>Min Yu's patience and attention to detail help create positive dental experiences for all our young patients.</p>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-image">👩‍⚕️</div>
+                    <div class="staff-info">
+                        <h3>Joscelin</h3>
+                        <p class="staff-role">Dental Assistant</p>
+                        <p>Skilled dental assistant who excels at making children feel comfortable and explaining procedures in friendly terms.</p>
+                    </div>
+                </div>
+                
+                <div class="staff-card">
+                    <div class="staff-image">👩‍⚕️</div>
+                    <div class="staff-info">
+                        <h3>Shasha</h3>
+                        <p class="staff-role">Dental Assistant</p>
+                        <p>Shasha brings energy and positivity to every appointment, helping children leave with smiles on their faces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Practice Features -->
+    <section class="practice-section">
+        <div class="container">
+            <div class="practice-content">
+                <div class="section-header" style="text-align: left; margin-bottom: 40px;">
+                    <span class="section-label">Our Facilities</span>
+                    <h2>A Practice Designed for Children</h2>
+                </div>
+                
+                <div class="practice-features">
+                    <div class="practice-feature">
+                        <div class="practice-feature-icon">🎨</div>
+                        <div class="practice-feature-text">
+                            <h3>Child-Friendly Environment</h3>
+                            <p>Colorful, welcoming spaces that feel more like a play area than a dental clinic, helping children feel relaxed and excited about their visit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="practice-feature">
+                        <div class="practice-feature-icon">🏥</div>
+                        <div class="practice-feature-text">
+                            <h3>State-of-the-Art Equipment</h3>
+                            <p>Latest pediatric dental technology and child-sized instruments designed specifically for young patients' comfort and safety.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="practice-feature">
+                        <div class="practice-feature-icon">🌟</div>
+                        <div class="practice-feature-text">
+                            <h3>Specialized Treatment Rooms</h3>
+                            <p>Treatment areas designed with children's needs in mind, featuring entertainment options and comfort amenities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="practice-feature">
+                        <div class="practice-feature-icon">📍</div>
+                        <div class="practice-feature-text">
+                            <h3>Prime Location</h3>
+                            <p>Conveniently located at Camden Medical Centre in Orchard, easily accessible via public transport and with ample parking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Experience the Difference of Specialist Care</h2>
+                <p>
+                    Schedule your child's appointment with Singapore's most experienced pediatric dental team.
+                </p>
+                <div class="cta-buttons">
+                    <a href="tel:+6562357279" class="btn-white">
+                        <span class="btn-icon">📞</span>
+                        Call: 6235 7279
+                    </a>
+                    <a href="contact.html" class="btn-outline-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>The Kids Dentist</h3>
+                    <p>
+                        Singapore's first dedicated pediatric dentistry practice since 2006. 
+                        Specialist care for infants, children, and adolescents.
+                    </p>
+                    <div class="footer-motto">
+                        <span class="motto-icon">✨</span>
+                        <span class="motto-text">Fun dentistry for kids</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#preventive">Preventive Care</a></li>
+                        <li><a href="services.html#restorative">Restorative Treatment</a></li>
+                        <li><a href="services.html#sedation">Sedation Options</a></li>
+                        <li><a href="services.html#orthodontics">Orthodontics</a></li>
+                        <li><a href="services.html#specialneeds">Special Needs Care</a></li>
+                        <li><a href="services.html#emergency">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <strong>Location:</strong><br>
+                            Camden Medical Centre #13-06<br>
+                            1 Orchard Boulevard<br>
+                            Singapore 248649
+                        </li>
+                        <li>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+6562357279">6235 7279</a>
+                        </li>
+                        <li>
+                            <strong>Hours:</strong><br>
+                            Mon-Fri: 9am - 5pm<br>
+                            Sat: 9am - 12:30pm<br>
+                            Sun: Closed
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Kids Dentist. All rights reserved.</p>
+                <div class="footer-credits">
+                    <span>Website by [Your Agency Name]</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
