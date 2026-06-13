@@ -1,0 +1,2185 @@
+﻿=== PAGE: aboutus.html ===
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>About Our Dental Clinic | The Kids Dentist</title>
+
+        <meta name="description" content="Meet the renowned dentist & devoted staff of The Kids Dentist! Visit this page or contact us at 6235-7279 to know the practice that offers fun dentistry for kids." />
+        <meta name="robots" content="index, follow" /> 
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/aboutus.html">
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/aboutus.html" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/aboutus.html">
+
+        <meta charset="UTF-8" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/aboutus.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="About Our Dental Clinic | The Kids Dentist">
+        <meta property="og:description" content="Meet the renowned dentist & devoted staff of The Kids Dentist! Visit this page or contact us at 6235-7279 to know the practice that offers fun dentistry for kids.">
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/staff/dr-rashid-tahir.jpg">
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="thekidsdentist.com.sg">
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/aboutus.html">
+        <meta name="twitter:title" content="About Our Dental Clinic | The Kids Dentist">
+        <meta name="twitter:description" content="Meet the renowned dentist & devoted staff of The Kids Dentist! Visit this page or contact us at 6235-7279 to know the practice that offers fun dentistry for kids.">
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/staff/dr-rashid-tahir.jpg">
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <script src="js/csi.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+         <!--[if lt IE 8]>
+
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+
+        <![endif]-->
+
+         <!--[if lt IE 9]>
+
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->        
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-549J9JH');</script>
+        <!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-109423838-1');
+	</script>
+
+
+    </head>
+
+    <body>
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+      <center>
+
+        <div data-include="header.html"></div>
+
+         <div class="menu-n-h">
+
+           <div class="menu-n">
+
+              <ul id="menu">
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="index.html">Home</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="aboutus.html">About Us</a>
+
+                  <ul class="child">
+
+                    <li class="parent"><a href="#">Our Dentists <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+
+                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+
+                      </ul>
+
+                    </li> 
+
+                    <li class="parent"><a href="#">Our Staff <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                      </ul>
+
+                    </li>   
+
+                    <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>              
+
+                  </ul>
+
+                </li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="services.html" >Services</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="gallery.html">Gallery</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="faq.html">FAQ</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="contactus.html">Contact Us</a></li>
+
+              </ul>
+
+           </div>
+
+         </div>
+
+         <div style="clear:both;"></div>
+
+              <div class="imgnav-div-aboutus"></div>
+
+        <div class="firstbody-div">
+
+                <div class="container">
+
+                    <div class="firstbodytxtserv">
+
+                        <h2><font class="welcometxtserv">About Us</font></h2>
+
+                    </div>
+
+                    <!--<div data-include="drinfo.html"></div>-->
+
+                </div>                
+
+            </div>
+
+            <div class="content1-divaboutus">
+
+                <div class="container">
+
+                    <div class="leftpanelcontent1serv" style="padding: 30px 32px 20px 7px;"><a name="dr-rashid-tahir"></a>
+
+                        <div style="border-bottom: 1px dotted #666; margin-bottom: 10px; height: 2px;"></div>
+
+                        <div style="display:inline-block;"><span class="sectiontxt"><b style="font-size: 18px;">OUR DENTISTS</b></span></div>
+
+                        <div style="border-bottom: 1px dotted #666; margin-top: 0px;margin-bottom: 10px; height: 2px;"></div>
+
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+                        <tbody>
+
+                         <tr>
+
+                             <td align="left" valign="top" width="140"><img src="images/staff/dr-rashid-tahir.jpg" width="140" height="200" hspace="15" vspace="10" /></td>
+
+                        <td align="left" valign="top"><p><span class="title"><strong>ADJUNCT A/PROF RASHID TAHIR</strong></span><!--<strong>,&nbsp;<em>Dental Therapist</em></strong>--></p>
+
+                        <p align="justify">Dental Specialist in Paediatric Dentistry<br/>BDS (Singapore) 1995,<br/>MSc with Distinction (London) 1998,<br/>FAM (Singapore) 2003</p></td>
+
+                        </tr>                       
+
+                        </tbody>
+
+                        </table>
+
+                        <p>Dr Rashid Tahir is a trained <a href="http://www.thekidsdentist.com.sg/">paediatric dentist</a> and has been providing oral health care solely for children since 1997.</p>
+
+                        <p>Dr Rashid completed his graduate training at the University of London in 1998 when he was conferred a Master of Science with Distinction in Childrenâs Dentistry (Paedodontics). He also won the 3M Dental Postgraduate Prize for being the best student in his cohort.</p>
+
+                        <p>He was an Assistant Professor at the Faculty of Dentistry, National University of Singapore (NUS) and consultant at the National University Hospital Dental Centre from 2002 to 2006, before setting up The Kids Dentist at Camden Medical Centre. He still enjoys teaching paediatric dentistry to dental students and goes back to NUS as an Adjunct Associate Professor.</p>
+
+                        <p>He is the founding President of the Society for Paediatric Dentistry (Singapore) and continues to be dedicated to the advancement in the field of paediatric dentistry. He was President of the Pediatric Dentistry Association of Asia (2016 â 2018), Chairman of the Specialist Accreditation Committee for Paediatric Dentistry (2008 â 2015) and Member of Dental Specialists Accreditation Board (2017 â 2022).</p>
+
+                        <p>He is the proud father of 2 beautiful young daughters and aims at making dentistry fun for kids!</p>
+
+                        <br/>
+
+                        <!-- <div style="border-bottom: 1px dotted #666; margin-bottom: 10px; height: 2px;"></div> -->
+
+                        <div style="display:inline-block;"><span class="sectiontxt"><b style="font-size: 16px;">Appointments :</b></span></div>
+
+                        <!-- <div style="border-bottom: 1px dotted #666; margin-top: 5px;margin-bottom: 10px; height: 2px;"></div> -->
+
+                        <ol class="itemslist">
+
+                        <li><b>Adjunct Associate Professor</b><br/>Faculty of Dentistry, National University of Singapore</li>
+
+                        <li><b>Council Member</b><br/>Singapore Dental Council</li>
+
+                        <li><b>Past & Founding President</b><br/>Society for Paediatric Dentistry (Singapore)</li>
+
+                        <li><b>Past President</b><br/>Pediatric Dentistry Association of Asia</li>
+
+                        <li><b>Past Member</b><br/>Dental Specialists Accreditation Board, Ministry of Health, Singapore</li><a name="dr-sylvia-koh"></a>                     
+
+                       </ol>
+
+                        <div style="border-bottom: 1px dotted #666; margin: 10px 0px 10px 0px; height: 2px;"></div>
+
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+                        <tbody>
+
+                         <tr>
+
+                             <td align="left" valign="top" width="140"><img src="images/staff/dr-sylvia-koh.png" width="140" height="200" hspace="15" vspace="10" /></td>
+
+                        <td align="left" valign="top"><p><span class="title"><strong>DR SYLVIA KOH</strong></span><!--<strong>,&nbsp;<em>Dental Therapist</em></strong>--></p>
+
+                        <p align="justify">
+
+                          BDSc (Queensland) <br/>
+
+                          MDS Paediatric Dentistry (Singapore)
+
+                        </p></td>
+
+                        </tr>
+
+                        <tr>
+
+                          <td colspan="4"> 
+
+                            Dr. Sylvia Koh graduated with Bachelor of Dental Science (Honours) from the University of Queensland. She was actively involved in volunteer work during her undergraduate studies.
+
+                            <br/><br/>
+
+                           Having graduated with Master of Dental Surgery from NUS, she is currently focused on practising paediatric dentistry at The Kids Dentist. She regularly attends training courses to keep up to date with the latest dental development. Outside of dentistry, she loves collecting air plants.
+
+
+
+                          </td>
+
+                        </tr>
+
+                        <tr><td colspan="2" height="20"></td></tr>
+
+                        <tr><td height="20" colspan="2"></td></tr>
+
+                        </tbody>
+
+                        </table>                       
+
+                        <!-- <hr/>
+
+                        <span class="sectiontxt"><b>Our Other Doctor :</b></span><hr/>                       
+
+                         -->
+
+                        <!-- <hr/>                       
+
+                        <span class="sectiontxt"><b></b></span><hr/> -->
+                      
+                        <div style="border-bottom: 1px dotted #666; margin-bottom: 10px; height: 2px;"></div><a name="seryna"></a>
+
+                        <div style="display:inline-block;"><span class="sectiontxt"><b style="font-size: 18px;">Our Staff :</b></span></div>
+
+                        <div style="border-bottom: 1px dotted #666; margin-top: 0px;margin-bottom: 10px; height: 2px;"></div>
+
+                        <p>Each of our staff offers their own special touch to the practice.</p>
+                        
+                         
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+                        <tbody>
+
+                          <tr>
+                          
+                            <td align="left" valign="top"><img src="images/staff/seryna.jpeg" width="140" height="200" hspace="15" vspace="10" />
+                            </td>
+                          
+                            <td align="left" valign="top">
+                              <p><span class="title"><strong>SERYNA</strong></span><strong>,&nbsp;<em>Appointment Specialist</em></strong>
+                              </p>
+                          
+                              <p align="justify">Meet Seryna â the baby of the team, but donât let the title fool you. She may be the youngest, but she works with the wisdom (and Wi-Fi speed) of someone twice her age. Creative? Absolutely. Curious? Sheâll Google anything from âhow to schedule appointments with flairâ to âwhy cats knock things off tables.â
+                                <br><br>
+                                As our Appointment Specialist, sheâs the gatekeeper of time â and no double-booking dares cross her path. Behind that youthful glow is someone dependable, sharp, and low-key running the calendar empire like a boss.
+                              </p><a name="dianne"></a>
+                            </td>
+                          
+                          </tr>
+                                               
+
+                         <tr><td colspan="2" height="20" style="border-bottom: 1px dotted #666;"></td></tr>
+
+                        <tr><td height="20" colspan="2"></td></tr>
+
+
+                        <tr>
+
+                        <td align="left" valign="top"><img src="images/staff/diana_mae.png" width="140" height="200" hspace="15" vspace="10" /></td>
+
+                        <td align="left" valign="top"><p><span class="title"><strong>DIANNE</strong></span><strong>,&nbsp;<em>Pediatric Dental Assistant</em></strong></p>
+
+                        <p align="justify">Dianne is an extremely fun-loving person. She is very friendly, kind and sympathetic to children. She enjoys singing and is always humming at work. Dianne hails from Tarlac City, the Philippines and has been living in Singapore for the last 8 years. She is a proud mother to a beautiful girl.</p>
+                        <a name="min-yu"></a></td>
+
+                        </tr>
+
+                        <tr><td colspan="2" height="20" style="border-bottom: 1px dotted #666;"></td></tr>
+
+                        <tr><td height="20" colspan="2"></td></tr>
+
+                        <tr>
+
+                        <td align="left" valign="top"><img src="images/staff/min-yu.png" width="140" height="200" hspace="15" vspace="10" /></td>
+
+                        <td align="left" valign="top"><p><span class="title"><strong>MIN YU</strong></span><strong>,&nbsp;<em>Pediatric Dental Assistant</em></strong></p>
+
+                        <p align="justify">Min Yu's gentle and kind disposition brings comfort to anxious children. She is an animal lover and enjoys spending time with her pet cats. She also likes going to the movies and watching light-hearted Korean dramas.</p>
+                        <a name="joscelin"></a></td>
+
+                        </tr>
+
+
+
+                        <tr>
+                          <td colspan="2" height="20" style="border-bottom: 1px dotted #666;"></td>
+                        </tr>
+
+                        <tr><td height="20" colspan="2"></td></tr>
+
+                        <tr>
+                        
+                          <td align="left" valign="top"><img src="images/staff/joscelin.png" width="140" height="200" hspace="15" vspace="10" />
+                          </td>
+                        
+                          <td align="left" valign="top">
+                            <p><span class="title"><strong>JOSCELIN</strong></span><strong>,&nbsp;<em>Pediatric Dental Assistant</em></strong>
+                            </p>
+                        
+                            <p align="justify">Our youngest pediatric Dental Assistant joined us in September 2023. She likes to say yes, eats and laughs a lot. Jos
+                            also enjoy music and seeing her patients smile with healthy and clean teeth.
+                            </p>
+                            <a name="shasha"></a>
+                          </td>
+                        
+                        </tr>
+                        
+                        <tr>
+                          <td colspan="2" height="20" style="border-bottom: 1px dotted #666;"></td>
+                        </tr>
+
+                        <tr>
+                          <td colspan="2" height="20"></td>
+                        </tr>
+                        
+
+                        <tr>
+                        
+                          <td align="left" valign="top"><img src="images/staff/shasha.jpeg" width="140" height="200" hspace="15" vspace="10" />
+                          </td>
+                        
+                          <td align="left" valign="top">
+                            <p><span class="title"><strong>SHASHA</strong></span><strong>,&nbsp;<em>Pediatric Dental Assistant</em></strong>
+                            </p>
+                        
+                            <p align="justify">
+                              Shasha enjoys exploring different cuisines and discovering new flavors, believing that good food and good smiles bring people together. Whether trying a local favorite or sharing a homemade meal, Shasha appreciates how both food and a healthy smile connect culture, creativity, and community.
+                            </p>
+                          </td>
+                        
+                        </tr>
+                        
+                        <tr>
+                          <td colspan="2" height="20"></td>
+                        </tr>
+
+
+
+                        </tbody>
+
+                        </table>
+
+                       <hr/>                       
+
+                       <div style="display: inline-flex;"><span class="sectiontxt"><b><a name="our-practice">Our Practice :</a></b></span></div>                       
+
+                       <hr/>
+
+                       <p>The Kids Dentist is a dental practice providing specialised dentistry for infants, children and adolescents in Singapore. The Kids Dentist recommends that every child visits the dentist by his/her 1st birthday, as advocated by the American Academy of Pediatric Dentistry. This is to avoid potential oral health care problems in your child.</p>
+
+                       <p>Parents do play a role in making the first visit for their child to the dentist enjoyable and positive. Your child should be informed of the visit and told that the dentist will count and clean his/her teeth. The dentist will also show him/her how to care for their teeth. It is best not to use words such as needle, pain, drill or hurt around your child as it might cause unnecessary fear. The Kids Dentist makes it a practice to use words that convey the same message, but are pleasant and non-frightening to the child.</p>
+
+                       <p>Your child's first visit will include a complete examination performed by our paediatric dentists. Radiographs (x-rays) may be obtained of your child's teeth if necessary. You are encouraged to accompany your child into the examination room. Following the clinical examination, our dentists will advise you on the appropriate treatment required for your child and answer any questions you may have.</p>
+
+                       <p>While visiting our clinic, your child is welcome to enjoy the toys, books, TV games as well as watch DVD movies while sitting on the dental chair.</p>
+
+                    </div>                       
+
+                    <!-- <div data-include="sidebar.html"></div> -->
+
+                </div>
+
+            </div>
+
+         <div style="clear:both;"></div>
+
+        <div data-include="footer.html"></div>
+
+     <script type="text/javascript" src="js/navigation.js"></script>
+
+      </center>
+
+    </body>
+
+</html>
+
+=== PAGE: services.html ===
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Dentistry Services | The Kids Dentist</title>
+
+        <meta name="description" content="Check out our extensive array of oral health care for children of all ages! The Kids Dentist provides fun child dental services in Singapore. Call 6235-7279 now!" />
+        <meta name="robots" content="index, follow" /> 
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/services.html">
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/services.html" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/services.html">
+
+        <meta charset="UTF-8" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/services.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Dentistry Services | The Kids Dentist">
+        <meta property="og:description" content="Check out our extensive array of oral health care for children of all ages! The Kids Dentist provides fun child dental services in Singapore. Call 6235-7279 now!">
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/doc1.jpg">
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="thekidsdentist.com.sg">
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/services.html">
+        <meta name="twitter:title" content="Dentistry Services | The Kids Dentist">
+        <meta name="twitter:description" content="Check out our extensive array of oral health care for children of all ages! The Kids Dentist provides fun child dental services in Singapore. Call 6235-7279 now!">
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/doc1.jpg">
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <script src="js/csi.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+         <!--[if lt IE 8]>
+
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+
+            <![endif]-->
+
+             <!--[if lt IE 9]>
+
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->   
+
+        <script type="text/javascript">
+
+          $(document).ready(function() {
+
+                $('.accordionButton').click(function() {
+
+                    $('.accordionButton').removeClass('on');                  
+
+                    $('.plusMinus').text('+');
+
+                    if($(this).next().is(':hidden') == true) {
+
+                        $(this).addClass('on');                       
+
+                        $(this).children('.plusMinus').text('-');
+
+                     } 
+
+                 }); 
+
+                
+
+            });
+
+        </script>                  
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/accordion.js"></script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-549J9JH');</script>
+        <!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-109423838-1');
+	</script>
+
+    </head>
+
+    <body>
+
+       <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+      <center>
+
+        <div data-include="header.html"></div>
+
+          <div class="menu-n-h">
+
+           <div class="menu-n">
+
+              <ul id="menu">
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="index.html">Home</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="aboutus.html">About Us</a>
+
+                  <ul class="child">
+
+                    <li class="parent"><a href="#">Our Dentists <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+
+                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+
+                      </ul>
+
+                    </li> 
+
+                    <li class="parent"><a href="#">Our Staff <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                      
+                      </ul>
+
+                    </li>   
+
+                    <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>              
+
+                  </ul>
+
+                </li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="services.html" >Services</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="gallery.html">Gallery</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="faq.html">FAQ</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="contactus.html">Contact Us</a></li>
+
+              </ul>
+
+           </div>
+
+         </div>
+
+        <div style="clear:both;"></div>
+
+         
+
+            <div class="imgnav-div-services"></div>
+
+            <div class="firstbody-div">
+
+                <div class="container">
+
+                    <div class="firstbodytxtserv">
+
+                        <h2><font class="welcometxtserv">Services</font></h2>
+
+                    </div>
+
+                    <!--<div data-include="drinfo.html"></div>-->
+
+                </div>                
+
+            </div>
+
+            <div class="content1-divserv">
+
+                <div class="container">
+
+                    <div class="leftpanelcontent1serv">
+
+                        <!-- <table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding-right: 5px;">
+
+                            <tr>
+
+                                <td width="20%"><img src="images/services_pic.jpg" border="0" /></td>
+
+                                <td width="2%"></td>
+
+                                <td width="78%" align="justify" valign="top">The Kids Dentist not only abides by its motto of
+
+                            <b>"fun dentistry for kids"</b>, but provides comprehensive
+
+                            oral healthcare for children of all ages, from birth
+
+                            to 18 years.</td>
+
+                            </tr>
+
+                            <tr><td colspan="3" height="20"></td></tr>                           
+
+
+
+                        </table> -->
+
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding-right: 5px;">
+
+                           <tr>
+
+                                <td width="18%" valign="top"><img src="images/zirconia-crowns.gif" border="0" width="220" /><br/><div style="text-align: left;">Aesthetic (white zirconia) crowns of the upper front four teeth</div></td>
+
+                                <td width="5%"> </td>
+
+                                <td width="18%" valign="top"><img src="images/laughing-gas.png" border="0" /><br/><div style="text-align: left;">âLaughing gasâ sedation for anxious children. <a href="gallery.html#happy-kid-video" style="text-decoration:underline;">(click here for video)</a></div></td>
+
+                                <td width="5%"> </td>
+
+                                <td width="18%" valign="top"><img src="images/abscess.png" border="0" /><br/><div style="text-align: left;">Gum boil arising from a decayed, infected tooth</div></td>
+
+                                <td width="5%"> </td>
+
+                                <td width="18%" valign="top"><img src="images/tooth-trauma.png" border="0" /><br/><div style="text-align: left;">Traumatised, fractured permanent teeth in a young child</div></td>
+
+                            </tr>
+
+
+
+                            <tr><td colspan="3" height="20"></td></tr>
+
+                         </table>    
+
+
+
+                        <span class="sectiontxt"><b>BEHAVIOUR MODIFICATION & PAIN MANAGEMENT:</b></span><br/><br/>
+
+                        <div class="accordion">  
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-1">Behaviour modification and shaping<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-1" class="accordion-section-content">                                                                                 
+
+                                              Our team of dentists are specially trained and equipped to help anxious children feel safe and comfortable during dental treatment. Our clinic is designed for children and our staff are patient, caring and most importantly, love being with kids.
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->                                            
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-2">Computerised local anaesthesia delivery system<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-2" class="accordion-section-content">  
+
+                                                                                   
+
+                                            The Kids Dentist is constantly implementing new technology to help us deliver dental care in the most comfortable manner for children. For treatment requiring numbing of the tooth, we use a computerised sensor-controlled local anaesthetic system instead of a traditional needle syringe. This helps to reduce the discomfort associated with injections and minimise the anxiety for the child.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                            
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-3">Oral sedation and laughing gas sedation<span class="plusMinus">+</span></a>                                           
+
+                                            <div id="accordion-3" class="accordion-section-content">
+
+                                           
+
+                                            Our practice uses either oral sedation or nitrous oxide (aka "laughing gas") sedation to help the anxious child relax and allow the dentist to safely perform the necessary dental treatment. Our practice does not advocate the use of intravenous sedation for the management of children.                                           
+
+
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                            
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-4">General anaesthesia<span class="plusMinus">+</span></a>
+
+                                            
+
+                                            <div id="accordion-4" class="accordion-section-content">                                             
+
+                                            
+
+                                            In cases where the child is extremely anxious, comprehensive dental treatment may be performed under general anaesthesia (GA). Our practice engages only well-qualified paediatric anaesthetists for GA.                                             
+
+
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->      
+
+                                          
+
+                                      </div>
+
+                                      <div>&nbsp;</div>
+
+                                        <span class="sectiontxt"><b>RESTORATIVE DENTISTRY:</b></span><br/><br/>
+
+                                        <div class="accordion">     
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-8">Paediatric crowns (aesthetic and stainless steel)<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-8" class="accordion-section-content">  
+
+                                                                                     
+
+                                             A stainless steel or a white zirconia aesthetic crown is usually recommended when there is extensive damage to multiple surfaces of the baby tooth from cavities or trauma. Paediatric crowns generally last longer than traditional fillings. Stainless steel and white zirconia crowns have their respective advantages and disadvantages. Feel free to consult with a <a href="http://www.thekidsdentist.com.sg/">child dental specialist</a> on what would be best suited for your child.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->   
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-7">Root canal treatment (pulpotomy and pulpectomy) for baby teeth<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-7" class="accordion-section-content"> 
+
+                                                                                      
+
+                                              A cavity (dental decay) that involves the nerve (pulp) of the tooth may cause a child to have a bad toothache. Such badly affected tooth will require a root canal treatment in order to restore it back to health. Depending on the extent of bacterial invasion in the root canal space of the tooth, a pulpotomy or pulpectomy may be indicated. A pulpotomy consists of removal of the top half portion of the nerve in the tooth while pulpectomy involves the removal of all the nerve in the root canal system of the tooth. Medicaments are used to disinfect the root canal as well. Following a root canal treatment, a crown is recommended to provide reinforcement for the tooth.
+
+
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->     
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-9">Leongâs premolars (aka dens evaginatus)<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-9" class="accordion-section-content">  
+
+                                                                                    
+
+                                            Some adult premolar teeth may have a protruded portion of tooth structure on the biting surface, which may fracture easily and expose the nerve (pulp) of the tooth. Preventive restoration can be placed if the protrusion is identified early. For young premolar teeth with infection of the pulp, a technique called revascularisation (or regenerative endodontics) can be done to treat such teeth. 
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-10">White fillings without mercury<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-10" class="accordion-section-content">
+
+                                                                                       
+
+                                            For the safety of our patients and the environment, we do not use mercury-containing silver (amalgam) fillings in our practice.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->                                          
+
+                                      </div>
+
+                                        <div>&nbsp;</div>
+
+                                        <span class="sectiontxt"><b>DENTAL TRAUMA AND SPORTS DENTISTRY:</b></span><br/><br/>
+
+                                        <div class="accordion">  
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-5">Management of fractured teeth<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-5" class="accordion-section-content">    
+
+                                                                                 
+
+                                              We provide immediate management for fractured and displaced primary and permanent teeth. Should your child suffer from a dental trauma, we advise that you make a dental appointment for your child promptly so that appropriate treatment and/or advice can be rendered. We also manage long-term trauma complications such as abscess and discolouration.
+
+
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                            
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-6">Sports mouthguard<span class="plusMinus">+</span></a>
+
+                                            
+
+                                            <div id="accordion-6" class="accordion-section-content">
+
+                                          
+
+                                            We recommend sports mouthguard for children and youths who are involved in contact sports to prevent traumatic injury to the teeth. In our practice, we fabricate customised sports mouthguard.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                          
+
+                                      </div>                                      
+
+                                      <div>&nbsp;</div>
+
+                                        <span class="sectiontxt"><b>PREVENTIVE & MINIMAL INTERVENTION DENTISTRY:</b></span><br/><br/><br/>
+
+                                        <div class="accordion">  
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-11">Silver diamine fluoride<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-11" class="accordion-section-content">           
+
+                                                                          
+
+                                              Silver diamine fluoride is a topical, non-invasive medicament that can be applied to the dental cavity to help arrest the progression of dental decay. It can be an effective way to stabilise dental decay but also has its drawbacks. Discuss with our paediatric dentists to see if your child is a suitable candidate for silver diamine fluoride application.
+
+
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                            
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-12">Home and professional fluoride therapies<span class="plusMinus">+</span></a>
+
+                                            <div id="accordion-12" class="accordion-section-content">
+
+                                                                                     
+
+                                            Fluoride has been proven beneficial in the prevention of tooth decay and tooth sensitivity. Fluoride treatment and application will strengthen your childâs teeth against tooth decay. We customise our fluoride therapy according to the dental decay risk of the child. 
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-13">Pit and fissure sealants<span class="plusMinus">+</span></a>                                            
+
+                                            <div id="accordion-13" class="accordion-section-content">
+
+                                                                                    
+
+                                            The chewing surfaces of your child's teeth are not smooth and flat. They are criss-crossed with tiny hills and valleys, called pits and fissures. These are places where plaque can build up and cause cavities. Sealants will prevent tooth decay especially in newly erupted permanent molars.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-14">Removable orthodontics<span class="plusMinus">+</span></a>                                            
+
+                                            <div id="accordion-14" class="accordion-section-content">
+
+                                                                                    
+
+                                            Our practice can help to fabricate simple retainer-type braces to correct a simple crossbite, usually the anterior.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-15">Space maintainers<span class="plusMinus">+</span></a>                                            
+
+                                            <div id="accordion-15" class="accordion-section-content">
+
+                                                                                   
+
+                                            A space maintainer (or spacer) is recommended to preserve a space in the arch if a tooth is lost prematurely. Space maintainers can help to prevent shifting and crowding in the adult dentition.
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+
+
+                                            <div class="accordion-section">
+
+                                            <a class="accordion-section-title accordionButton" href="#accordion-16">Habit-breaking appliance<span class="plusMinus">+</span></a>                                            
+
+                                            <div id="accordion-16" class="accordion-section-content">
+
+                                                                            
+
+                                            If you child has an oral habit such as sucking thumb or the pacifier, the growth of the jaws and the teeth may be affected overtime, resulting in aesthetic and speech problems. At The Kids Dentist, we offer advice and strategies as well as fabricate custom-made oral appliances to help your child to stop these habits. 
+
+                                            
+
+                                            </div><!--end .accordion-section-content-->
+
+                                            </div><!--end .accordion-section-->
+
+                                          
+
+                                      </div>
+
+
+
+                                      <!--end .accordion-->
+
+                                      <!-- <ol class="itemslist">
+
+                                      <li><b>Caries risk assessment</b> - will identify the level of risk for cavity development and other oral health diseases in infants, children and adolescents.</li>       
+
+                                      <li><b>Minimal intervention dentistry</b> - strong focus on preventive therapies customized for the individual child to avoid tooth cavities and other oral health diseases.</li>
+
+                                      <li><b>Diet counseling and modification</b> - good eating habits and food preferences are established early in childhood. Poor diet can eventually lead to poor health, obesity and even tooth decay. Advice on safe diet for good oral health will be customized for your child.</li>
+
+                                      <li><b>Pits and fissure sealants</b> - the chewing surfaces of your child's teeth are not smooth and flat. They are criss-crossed with tiny hills and valleys, called pits and fissures. These are places where plaque can build up and cause cavities. Sealants will prevent tooth decay especially in newly erupted permanent teeth.</li>
+
+                                      <li><b>Home and professional fluoride therapies</b> - fluoride has been proven beneficial in the prevention of tooth decay and tooth sensitivity. Fluoride treatment and application will strengthen your childâs teeth against tooth decay.</li>
+
+                                      <li><b>Behaviour modification and shaping</b> - Dr Rashid is a specialist paediatric dentist with special training in helping anxious children feel safe and comfortable during dental treatment. Our clinic is designed for children and our staff are patient, caring and most importantly, love being with kids.</li>
+
+                                      <li><b>Nitrous oxide inhalation sedation (relative analgesia)</b> - "laughing gas" can help the anxious child relax and allow the dentist to perform the necessary dental treatment. The use of nitrous oxide sedation in childrenâs dentistry has been proven to be very safe in many international research publications. Our practice, do not advocate the use of intra-venous sedation for the management of children.</li>
+
+                                      <li><b>Oral rehabilitation under general anaesthesia</b> - comprehensive dental treatment performed under general anaesthesia (GA). Our practice engages only well-qualified paediatric anaesthetists for the GA. All our anaesthetists still hold visiting consultant appointments in the restructured hospitals.</li> 
+
+                                      <li><b>Sports dentistry and trauma management of fractured teeth</b> - provision of sports mouth guards and immediate management of fractured primary and permanent teeth.</li> 
+
+                                      <li><b>Restorative dentistry with non-mercury containing fillings and stainless steel crowns</b> - dentistry for children without mercury!</li>
+
+                                      <li><b>Removable orthodontics</b> - "simple" braces to correct simple "bad" bite also known as malocclusion.</li>
+
+                                      <li><b>Dentistry for sick children</b> - children with special health care and medical needs, which includes congenital heart diseases, haemophilia, autism and others. It is always important to prevent oral health diseases which may further compromise the health of these children.</li>
+
+                                     </ol> -->
+
+                   </div>
+
+                   <!-- <div data-include="sidebar.html"></div> -->
+
+                </div>
+
+            </div>
+
+         <div style="clear:both;"></div>
+
+        <div data-include="footer.html"></div>
+
+        <script type="text/javascript" src="js/navigation.js"></script>
+
+       </center>
+
+    </body>
+
+</html>
+
+=== PAGE: gallery.html ===
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Gallery | The Kids Dentist</title>
+
+        <meta name="description" content="See the irresistible smiles of the happy kids who availed of The Kids Dentist' services by visiting our gallery page. You may also call 6235-7279 for more details." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/gallery.html">
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/gallery.html" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/gallery.html">
+
+        <meta charset="UTF-8" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/gallery.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Gallery | The Kids Dentist">
+        <meta property="og:description" content="See the irresistible smiles of the happy kids who availed of The Kids Dentist' services by visiting our gallery page. You may also call 6235-7279 for more details.">
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/gallery/full/thekidsdentist_020.jpg">
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="thekidsdentist.com.sg">
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/gallery.html">
+        <meta name="twitter:title" content="Gallery | The Kids Dentist">
+        <meta name="twitter:description" content="See the irresistible smiles of the happy kids who availed of The Kids Dentist' services by visiting our gallery page. You may also call 6235-7279 for more details.">
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/gallery/full/thekidsdentist_020.jpg">
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen" />
+
+        <script src="js/csi.min.js" type="text/javascript"></script>      
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>  
+
+        <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+
+        <!--[if lt IE 8]>
+
+              <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+
+              <![endif]-->
+
+               <!--[if lt IE 9]>
+
+              <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->           
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-549J9JH');</script>
+        <!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-109423838-1');
+	</script>
+
+    </head>
+
+    <body>
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+       <center>
+
+        <div data-include="header.html"></div>
+
+         <div class="menu-n-h">
+
+           <div class="menu-n">
+
+              <ul id="menu">
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="index.html">Home</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="aboutus.html">About Us</a>
+
+                  <ul class="child">
+
+                    <li class="parent"><a href="#">Our Dentists <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+
+                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+
+                      </ul>
+
+                    </li> 
+
+                    <li class="parent"><a href="#">Our Staff <span class="expand">Â»</span></a>
+
+                      <ul class="child">
+                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                      
+                      </ul>
+
+                    </li>   
+
+                    <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>              
+
+                  </ul>
+
+                </li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="services.html" >Services</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="gallery.html">Gallery</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="faq.html">FAQ</a></li>
+
+                <li class="parent" style="font-family: Montserrat, sans-serif;font-size: 17px;"><a href="contactus.html">Contact Us</a></li>
+
+              </ul>
+
+           </div>
+
+         </div>
+
+        <div style="clear:both;"></div>         
+
+            <div class="imgnav-div-gallery"></div>
+
+            <div class="firstbody-div">
+
+                <div class="container">
+
+                    <div class="firstbodytxtserv" style="padding: 22px 0px 0px 0px">
+
+                        <h2><font class="welcometxtserv">Gallery</font></h2>
+
+                    </div>
+
+                    <!--<div data-include="drinfo.html"></div>-->
+
+                </div>                
+
+            </div>
+
+            <div class="content1-divserv">
+
+                <div class="container">
+
+                    <div class="leftpanelcontent1serv" style="padding: 30px 0px 20px 25px;width:100%;">
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_009.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_009.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_005.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_005.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_007.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_007.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_003.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_003.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                          <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_022.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_022.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_006.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_006.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_010.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_010.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_001.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_001.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_008.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_008.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_002.jpg" title="">
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_002.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_004.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_004.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_014.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_014.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_016.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_016.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_015.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_015.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_018.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_018.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_017.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_017.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_019.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_019.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+                         <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_000.jpg" title="">
+
+                        <img  class="resize" src="images/gallery/half/thumb_thekidsdentist_000.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+                        
+
+						<div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_021.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_021.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+						
+
+                        <div class="thumbnail">
+
+                        <a href="images/gallery/full/thekidsdentist_020.jpg" title="" >
+
+                        <img  src="images/gallery/half/thumb_thekidsdentist_020.png" width="120" height="100" style="max-width:none;" />
+
+                        </a>
+
+                        </div>
+
+
+
+                        <!-- New pics start 23/11/2019 -->
+
+
+
+                   </div>                       
+
+                   <!-- <div class="rightpanelcontent1serv">
+
+                        <table class="faqsection" style="border-bottom:none;">
+
+                             <tr>
+
+                                 <td></td>
+
+                                 <td class="sectiontxtfaqdesc">
+
+                                     <table class="secheader">
+
+                                        <tr>
+
+                                            <td><img src="images/faqtxtimg.png" style="margin-left :16px"/></td>
+
+                                            <td>FAQs</td>
+
+                                        </tr>
+
+                                     </table>
+
+                                        <ul>
+
+                                        <li>What is a paediatric dentist?</li>
+
+                                        <li>What age group of children do you treat at The Kids Dentist?</li>
+
+                                        <li>Can I learn more about the staff?</li>
+
+                                        <li>When should my child first see a dentist?</li>
+
+                                        <li>What are the charges like at The Kids Dentist?</li>
+
+                                        <li>Why is primary or "baby" teeth so important?</li>
+
+                                        </ul>
+
+                                      <a href="faq.html" style="padding-left:20px;float:right;text-decoration: none;">Read more</a>                                     
+
+                                 </td>
+
+                             </tr>                             
+
+                         </table>
+
+                  </div> -->
+
+				  <div class="leftpanelcontent1serv-t">
+
+                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding-left: 20px;">
+
+                           <tr>
+
+                            <td><a name="happy-kid-video"></a><h3 style="color:#7e3167;">Laughing gas sedation video</h3></td>
+
+                           </tr>
+
+                           <tr>
+
+							   	<td>
+
+                                    <video width="45%" controls autoplay poster="images/gallery/video/happy-kid.jpg">
+
+									  <source src=" https://storage.googleapis.com/activamedia/the-kids-dentist.mp4" type="video/mp4">
+
+									  <source src="https://storage.googleapis.com/activamedia/the-kids-dentist.ogg" type="video/ogg">
+
+									  <source src="https://storage.googleapis.com/activamedia/the-kids-dentist.webm" type="video/webm">
+
+									  Your browser does not support HTML5 video.
+
+									</video>
+
+                                </td>
+
+                           </tr>
+
+                    </table>
+
+                  </div>
+
+                  <div class="leftpanelcontent1serv-t">
+
+                    <h2 style="padding-left:20px;">Learn more about keeping your childâs teeth healthy from these videos:</h2>
+
+                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding-left: 20px;">
+
+                           <tr>
+
+                            <td><h3 style="color:#7e3167;">Tips for Healthy Teeth</h3></td>
+
+							<td><h3 style="color:#7e3167;">Oral Care Myths: True or False?</h3></td>
+
+                           </tr>
+
+                           <tr>
+
+                                <td>
+
+                                    <video width="90%" height="auto" poster="images/gallery/video/tips-for-healthy-teeth.jpg" class="video-promo pc" controls>
+
+                                           <source src="images/gallery/video/tips-for-healthy-teeth.mp4">
+
+                                    </video> 
+
+                                </td>
+
+							   	<td>
+
+                                    <video width="90%" height="auto" poster="images/gallery/video/oral-care-myths-true-or-false.jpg" class="video-promo pc" controls>
+
+                                           <source src="images/gallery/video/oral-care-myths-true-or-false.mp4">
+
+                                    </video> 
+
+                                </td>
+
+                           </tr>
+
+                    </table>
+
+                  </div>
+
+                </div>
+
+            </div>
+
+         <div style="clear:both;"></div>
+
+        <div data-include="footer.html"></div>        
+
+        <script type="text/javascript" src="js/navigation.js"></script>         
+
+        <script src="js/jquery.lightbox.js"></script>
+
+        <script>
+
+          // Initiate Lightbox
+
+          $(function() {
+
+            $('.thumbnail a').lightbox(); 
+
+          });
+
+        </script>
+
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+
+        //            $('.thumbnail').magnificPopup({
+
+        //                delegate: 'a',
+
+        //		type: 'image',
+
+        //                tLoading: 'Loading image #%curr%...',
+
+        //                mainClass: 'mfp-img-mobile',
+
+        //		closeBtnInside: false,
+
+        //                closeOnContentClick: true,
+
+        //                image: {
+
+        //                    verticalFit: true
+
+        //                },
+
+        //                gallery: {
+
+        //                    enabled: true,
+
+        //                    navigateByImgClick: true,
+
+        //                    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+
+        //                  },
+
+        //                     image: {
+
+        //                          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+
+        //                          verticalFit: true
+
+        //                        }
+
+        //
+
+        //                });
+
+                        
+
+                        $('.faqsection').css('border-bottom', '1px solid #f1f1f1');
+
+                       });
+
+        </script>
+
+</center>
+
+</body>
+
+</html>
+
+=== PAGE: faq.html ===
+<!doctype html>
+
+<html>
+    <head>
+        <title>Frequently Asked Questions | The Kids Dentist</title>
+
+        <meta name="description" content="Get the answers to the most frequently asked questions (FAQs) about paediatric dentistry on this page or call us at 6235-7279 for an appointment." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/faq.html" />
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/faq.html" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/faq.html" />
+
+        <meta charset="UTF-8" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/faq.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Frequently Asked Questions | The Kids Dentist" />
+        <meta property="og:description" content="Get the answers to the most frequently asked questions (FAQs) about paediatric dentistry on this page or call us at 6235-7279 for an appointment." />
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="thekidsdentist.com.sg" />
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/faq.html" />
+        <meta name="twitter:title" content="Frequently Asked Questions | The Kids Dentist" />
+        <meta name="twitter:description" content="Get the answers to the most frequently asked questions (FAQs) about paediatric dentistry on this page or call us at 6235-7279 for an appointment." />
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+        <script src="js/csi.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+        <!--[if lt IE 8]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-549J9JH");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-109423838-1");
+        </script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <center>
+            <div data-include="header.html"></div>
+
+            <div class="menu-n-h">
+                <div class="menu-n">
+                    <ul id="menu">
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="index.html">Home</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px">
+                            <a href="aboutus.html">About Us</a>
+
+                            <ul class="child">
+                                <li class="parent">
+                                    <a href="#">Our Dentists <span class="expand">Â»</span></a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#">Our Staff <span class="expand">Â»</span></a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="services.html">Services</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="gallery.html">Gallery</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="faq.html">FAQ</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div class="imgnav-div-faq"></div>
+
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxtserv">
+                        <h2><font class="welcometxtserv" style="padding: 0px 0px 0px 32px">FAQs</font></h2>
+                    </div>
+
+                    <!--<div data-include="drinfo.html"></div>-->
+                </div>
+            </div>
+
+            <div class="content1-divfaq">
+                <div class="container">
+                    <div class="leftpanelcontent1serv">
+                        <span class="sectiontxt"><b>Frequently Asked Questions :</b></span
+                        ><br /><br />
+
+                        <ol class="itemslist">
+                            <li><b>WHAT IS A PAEDIATRIC DENTIST?</b><br /><a href="http://www.thekidsdentist.com.sg/home.html">Paediatric dentists</a> are dentists who only treat children. They are the paediatricians of dentistry. A paediatric dentist has extra and specialised training and is dedicated to the oral health of children. Children of all ages (including those with special health needs) need different approaches in dealing with their behaviour at the dentist. Paediatric dentists also guide childrenâs dental growth and development as well as help these children avoid future dental problems.</li>
+
+                            <li><b>WHAT AGE GROUP OF CHILDREN DO YOU TREAT AT THE KIDS DENTIST?</b><br />We treat children from birth to 18 years.</li>
+
+                            <li><b>HOW DO I FIND YOUR CLINIC?</b><br />A map, shuttle bus link and general directions to The Kids Dentist can be found in our âContact Usâ section.</li>
+
+                            <li><b>CAN I LEARN MORE ABOUT THE STAFF?</b><br />The Kids Dentist staff information and photographs are part of this site.</li>
+
+                            <li><b>WHAT ARE THE CHARGES LIKE AT THE KIDS DENTIST?</b><br />Our consultation charges range from $90-$110. Scaling and polishing charges are from $75 onwards while fillings are from $120-$160. We use only tooth-coloured fillings that do not contain mercury and safe for your child.</li>
+
+                            <li><b>WHEN SHOULD MY CHILD FIRST SEE A DENTIST?</b><br />The American Academies of Pediatric Dentistry and Pediatrics recommend that children see a paediatric dentist by the childâs 1st birthday to prevent tooth decay and gum disease in the future.</li>
+
+                            <li><b>WHY IS PRIMARY OR âBABYâ TEETH SO IMPORTANT?</b><br />Primary teeth, or baby-teeth, are important for (1) proper chewing and eating, (2) providing space for the permanent teeth and guiding them into the correct position, as well as (3) permitting normal development of the jaw bones and muscles. Primary teeth also affect the (4) development of speech and add to an (5) attractive appearance. While the front 4 teeth last until 6-7 years of age, the back teeth (ie molars) arenât replaced until ages 10-13.</li>
+
+                            <li><b>WHAT DENTAL PROBLEMS COULD A BABY HAVE?</b><br />A big concern is nursing or baby bottle tooth decay. A baby risks severe tooth decay when he or she nurses continuously from a bottle of milk formula, breastmilk or juice during naps or at night. However, the earlier the dental visit, the better the chance of parents and caregivers preventing dental problems.</li>
+
+                            <li><b>WHAT TO DO IN AN EMERGENCY?</b><br />Knowing what to do in a dental emergency is very important. Find helpful tips by reading the questions below on exactly what to do if an emergency happens in your family.</li>
+
+                            <li><b>WHAT SHOULD I DO IF MY CHILD HAS A TOOTHACHE?</b><br />The parent can begin by cleaning around the painful tooth thoroughly. Use warm salt water and rinse the mouth to displace any food trapped between teeth. DO NOT use aspirin or paracetamol on the aching tooth or on the gum. If the child has a facial swelling, apply a cold compress to the area. For temporary pain relief, paracetamol (e.g. syrup Panadol or Calpol) is recommended. See a dentist as soon as possible.</li>
+
+                            <li><b>WHAT SHOULD I DO IF MY CHILD HAS A BROKEN TOOTH?</b><br />The parent should rinse the area with warm water. Put a cold compress over the facial area of the injury. Recover any broken tooth fragments and get immediate dental attention.</li>
+
+                            <li><b>WHAT IF MY CHILD HAS A KNOCKED-OUT PERMANENT TOOTH?</b><br />The parent has to recover the tooth and be sure to hold it by the crown (top white portion) and not the root end. Rinse, but do not clean or handle the tooth more than necessary. Reinsert the tooth in the socket and hold it in place using a clean piece of gauze or cloth. If the tooth cannot be reinserted, carry it in a cup containing fresh milk or saliva. If the patient is old enough, the tooth may also be carried in the patientâs mouth. The patient must see a dentist IMMEDIATELY! Time is a critical factor in saving the tooth.</li>
+
+                            <li><b>WHAT SHOULD I DO IF MY CHILD HAS A CUT OR BITTEN TONGUE, LIP OR CHEEK?</b><br />Ice can be applied to any bruised areas. For bleeding, parents should apply firm (but gentle) pressure with a clean cloth. If the bleeding does not stop with pressure or continues after 15 minutes, go to an emergency centre.</li>
+                        </ol>
+                    </div>
+
+                    <!-- <div data-include="sidebar2.html"></div> -->
+                </div>
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div data-include="footer.html"></div>
+
+            <script type="text/javascript" src="js/navigation.js"></script>
+        </center>
+    </body>
+</html>
+
+
+=== PAGE: contactus.html ===
+<!doctype html>
+
+<html>
+    <head>
+        <title>Contact Us | The Kids Dentist</title>
+
+        <meta name="description" content="For more information or enquiries about our paediatric dentistry services, just visit this page to fill out the form or contact The Kids Dentist today at 6235-7279!" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/contactus.html" />
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/contactus.html" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/contactus.html" />
+
+        <meta charset="UTF-8" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/contactus.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Contact Us | The Kids Dentist" />
+        <meta property="og:description" content="For more information or enquiries about our paediatric dentistry services, just visit this page to fill out the form or contact The Kids Dentist today at 6235-7279!" />
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="thekidsdentist.com.sg" />
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/contactus.html" />
+        <meta name="twitter:title" content="Contact Us | The Kids Dentist" />
+        <meta name="twitter:description" content="For more information or enquiries about our paediatric dentistry services, just visit this page to fill out the form or contact The Kids Dentist today at 6235-7279!" />
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+        <!-- <link rel="stylesheet" type="text/css" href="css/notifyme.css" media="screen" />  -->
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print" />
+
+        <script src="js/csi.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+        <!-- <script src="js/jquery.placeholder.1.3.min.js" type="text/javascript"></script>
+
+         <script src="js/notifyme.js" type="text/javascript"></script>
+
+         <script src="js/spin/spin.min.js" type="text/javascript"></script>
+
+         <script src="js/spin/jquery.spin.modal.js" type="text/javascript"></script> -->
+
+        <!--[if lt IE 8]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <script type="text/javascript">
+            var geocoder = "",
+                marker = "",
+                map = "",
+                mapCanvas = "",
+                myLatlng = "",
+                infowindow = "";
+
+            function geocodePosition(pos) {
+                geocoder = new google.maps.Geocoder();
+
+                infowindow = new google.maps.InfoWindow();
+
+                geocoder.geocode(
+                    {
+                        latLng: pos,
+                    },
+                    function (responses) {
+                        if (responses && responses.length > 0) {
+                            marker.formatted_address = responses[0].formatted_address;
+                        } else {
+                            marker.formatted_address = "Cannot determine address at this location.";
+                        }
+
+                        infowindow.setContent(marker.formatted_address); //+"<br>coordinates: "+marker.getPosition().toUrlValue(6)
+
+                        infowindow.open(map, marker);
+                    },
+                );
+            }
+
+            function initialize() {
+                mapCanvas = document.getElementById("map-canvas");
+
+                myLatlng = new google.maps.LatLng(1.303152, 103.823715);
+
+                var mapOptions = {
+                    center: myLatlng,
+
+                    zoom: 15,
+
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                };
+
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                marker = new google.maps.Marker({
+                    position: myLatlng,
+
+                    map: map,
+
+                    title: "Hello World!",
+                });
+
+                google.maps.event.addListener(marker, "click", function () {
+                    geocodePosition(marker.getPosition());
+                });
+            }
+
+            google.maps.event.addDomListener(window, "load", initialize);
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-549J9JH");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-109423838-1");
+        </script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <center>
+            <div data-include="header.html"></div>
+
+            <div class="menu-n-h">
+                <div class="menu-n">
+                    <ul id="menu">
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="index.html">Home</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px">
+                            <a href="aboutus.html">About Us</a>
+
+                            <ul class="child" style="z-index: 9">
+                                <li class="parent">
+                                    <a href="#">Our Dentists <span class="expand">Â»</span></a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#">Our Staff <span class="expand">Â»</span></a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="services.html">Services</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="gallery.html">Gallery</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="faq.html">FAQ</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div class="imgnav-div">
+                <div class="slides">
+                    <img src="images/mainimg-02.png" class="img-mid" />
+
+                    <img src="images/mainimg-05.png" class="img-mid" />
+                </div>
+            </div>
+
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxtserv">
+                        <h2><font class="welcometxtserv">Contact Us</font></h2>
+                    </div>
+
+                    <!--  <div data-include="drinfo.html"></div> -->
+                </div>
+            </div>
+
+            <div class="content1-divcntc">
+                <div class="container">
+                    <div class="">
+                        <!-- leftpanelcontent1serv -->
+
+                        <div class="thxmsg">
+                            Thank you for your kind interest in <b>The Kids Dentist.</b><br /><br />
+
+                            If you have any inquiries or would like to request for further information regarding our services, please contact us using any of the methods given below. We will attend to your request as soon as possible.
+                        </div>
+
+                        <fieldset>
+                            <br />
+
+                            <!--<div class="form-style-2-heading">Provide your information</div><br/><br/>-->
+
+                            <div id="form_table">
+                                <div class="openhrs">
+                                    <b>Opening Hours:</b><br />
+
+                                    Monday to Friday: 9am - 5pm<br />
+
+                                    Saturday: 9am - 12.30pm<br />
+
+                                    Close on Sunday & Public Holidays
+                                </div>
+
+                                <hr class="style-two" />
+
+                                <!-- feedback.activamedia.com.sg script begins here -->
+
+                                <!-- <script type="text/javascript" defer src="//feedback.activamedia.com.sg/embed/5089426.js" data-role="form" data-default-width="650px"></script> -->
+
+                                <!-- feedback.activamedia.com.sg script ends here -->
+
+                                <div data-include="contactus-form.html"></div>
+                                <script src="https://unpkg.com/hapi-recaptcha-html@latest/dist/hapi.min.js"></script>
+                                <script>
+                                    Hapi.forms([
+                                        {
+                                            name: "form01",
+                                            hapiformID: "3cc3e00d-63b1-412b-97b5-a1a1a8e4d019",
+                                            redirectTo: "thank-you.html",
+                                            captchaId: "captcha-01",
+                                        },
+                                    ]);
+                                </script>
+                            </div>
+                        </fieldset>
+
+                        <br />
+                        <hr class="fancy-line" />
+                        <br />
+
+                        <div class="iframe-rwd">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4086.7380101597696!2d103.82243928529147!3d1.3033393451966855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da198987ba8c7d%3A0x5099ed6ada3a77e1!2sThe+Kids+Dentist!5e0!3m2!1sen!2ssg!4v1444975936110" width="100%" height="350" frameborder="0" style="border: 0" allowfullscreen></iframe>
+
+                            <!--<div id="map-canvas"></div><br/><a href="https://maps.google.com.sg/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Singapore+248649&amp;aq=&amp;sll=1.343746,103.824045&amp;sspn=0.542299,0.644073&amp;ie=UTF8&amp;hq=&amp;hnear=248649&amp;ll=1.303152,103.823715&amp;spn=0.004237,0.005032&amp;t=m&amp;z=14" class="title" style="color:#0000FF;text-align:left">View Larger Map</a>-->
+
+                            <br /><br />
+
+                            Complimentary shuttle bus service is provided by Camden Medical Centre.<br /><a href="https://www.camden.com.sg/planning-visit/shuttle-service" target="_blank" class="contactus-dir">Click here</a> to find out more on the routes and timings.
+                        </div>
+                    </div>
+
+                    <!--  <div class="cntactrightdiv" data-include="sidebar.html"></div> -->
+
+                    <div style="display: block"></div>
+                </div>
+            </div>
+
+            <div data-include="footer.html"></div>
+
+            <div id="foo"></div>
+
+            <!-- <script type="text/javascript" src="js/kidsdentist.js"></script> -->
+
+            <script type="text/javascript" src="js/navigation.js"></script>
+        </center>
+    </body>
+</html>
+
+
+

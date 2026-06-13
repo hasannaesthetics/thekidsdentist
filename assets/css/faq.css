@@ -1,0 +1,125 @@
+/* ───────────────────────────────────────────────────
+   FAQ PAGE — Specific Styles
+   ─────────────────────────────────────────────────── */
+
+.faq-page-section {
+  padding: var(--section-gap) 0;
+}
+
+.faq-category {
+  margin-bottom: 56px;
+}
+.faq-category:last-of-type {
+  margin-bottom: 0;
+}
+
+.faq-category-title {
+  font-size: 1.6rem;
+  color: var(--navy);
+  margin-bottom: 24px;
+  border-bottom: 1.5px solid var(--gold-pale);
+  padding-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+.faq-item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 22px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--navy);
+  transition: background 0.25s, color 0.25s;
+}
+.faq-question:hover {
+  background: var(--gray-50);
+}
+.faq-question.open {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--gold-pale);
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  transition: transform 0.3s, background 0.25s, color 0.25s;
+}
+.faq-question.open .faq-icon {
+  background: rgba(201,168,76,0.2);
+  color: var(--gold-light);
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s;
+  padding: 0 28px;
+  background: var(--white);
+}
+.faq-answer.open {
+  max-height: 500px;
+  padding: 24px 28px;
+  border-top: 1px solid var(--gray-100);
+}
+.faq-answer p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--text-mid);
+}
+.faq-answer a {
+  color: var(--gold);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.faq-answer a:hover {
+  color: var(--navy);
+}
+
+/* Emergency note styling */
+.emergency-intro {
+  background: var(--gold-pale);
+  border-left: 4px solid var(--gold);
+  padding: 24px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 24px;
+}
+.emergency-intro p {
+  color: var(--navy-dark);
+  font-weight: 500;
+  margin: 0;
+}

@@ -1,0 +1,248 @@
+/* ───────────────────────────────────────────────────
+   ABOUT PAGE — Specific Styles
+   ─────────────────────────────────────────────────── */
+
+/* ── Dentists Section ── */
+.dentist-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow-sm);
+  align-items: start;
+  transition: var(--transition);
+}
+.dentist-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.dentist-img-wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 140/200;
+  border: 1px solid var(--gray-100);
+}
+.dentist-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.dentist-card:hover .dentist-img-wrap img {
+  transform: scale(1.03);
+}
+.dentist-info h3 {
+  font-size: 1.8rem;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.dentist-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.dentist-qualifications {
+  font-style: italic;
+  color: var(--text-light);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  border-left: 2px solid var(--gold);
+  padding-left: 14px;
+}
+.dentist-bio p {
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+.dentist-bio p:last-child {
+  margin-bottom: 0;
+}
+.dentist-appointments {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px dashed var(--gray-100);
+}
+.dentist-appointments h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-bottom: 12px;
+  letter-spacing: 0.08em;
+}
+.dentist-appointments ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+}
+.dentist-appointments li {
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  position: relative;
+  padding-left: 18px;
+}
+.dentist-appointments li::before {
+  content: "•";
+  color: var(--gold);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* ── Staff Grid ── */
+.staff-section {
+  background: var(--off-white);
+  padding: var(--section-gap) 0;
+}
+.staff-intro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 56px;
+}
+.staff-intro p {
+  font-size: 1.1rem;
+  font-family: var(--font-serif);
+  color: var(--navy);
+  font-style: italic;
+}
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.staff-card {
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+.staff-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+.staff-img-wrap {
+  width: 140px;
+  height: 180px;
+  margin: 0 auto 24px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1.5px solid var(--white);
+  outline: 1px solid var(--gray-100);
+}
+.staff-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.staff-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+.staff-role {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.staff-bio {
+  font-size: 0.875rem;
+  color: var(--text-mid);
+  line-height: 1.6;
+}
+
+/* ── Our Practice Section ── */
+.practice-section {
+  padding: var(--section-gap) 0;
+}
+.practice-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.practice-content h3 {
+  font-size: 1.6rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.practice-content p {
+  margin-bottom: 16px;
+}
+.practice-features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.practice-feature-card {
+  background: var(--off-white);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  border-left: 4px solid var(--gold);
+}
+.practice-feature-card h4 {
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+.practice-feature-card p {
+  font-size: 0.875rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .dentist-card {
+    grid-template-columns: 200px 1fr;
+    gap: 32px;
+    padding: 30px;
+  }
+  .dentist-appointments ul {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .staff-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .dentist-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 24px;
+  }
+  .dentist-img-wrap {
+    width: 180px;
+    margin: 0 auto;
+  }
+  .dentist-qualifications {
+    border-left: none;
+    border-top: 1px solid var(--gold-pale);
+    border-bottom: 1px solid var(--gold-pale);
+    padding: 8px 0;
+  }
+  .staff-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .practice-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

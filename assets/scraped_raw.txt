@@ -1,0 +1,1089 @@
+﻿=== PAGE: https://www.thekidsdentist.com.sg/ ===
+<!doctype html>
+
+<html>
+    <head>
+        <title>Paediatric Dentist | Child Dentist | The Kids Dentist</title>
+
+        <meta name="description" content="In need of child dental/paediatric dental services? Dr Rashid Tahir of The Kids Dentist offers paediatric dentistry. Call our child dentist at 6235-7279 now!" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.thekidsdentist.com.sg/" />
+        <link rel="alternate" href="https://www.thekidsdentist.com.sg/" hreflang="en-SG" />
+        <link rel="alternate" hreflang="x-default" href="https://www.thekidsdentist.com.sg/ " />
+
+        <meta charset="UTF-8" />
+
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.thekidsdentist.com.sg/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Paediatric Dentist | Child Dentist | The Kids Dentist" />
+        <meta property="og:description" content="In need of child dental/paediatric dental services? Dr Rashid Tahir of The Kids Dentist offers paediatric dentistry. Call our child dentist at 6235-7279 now!" />
+        <meta property="og:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="thekidsdentist.com.sg" />
+        <meta property="twitter:url" content="https://www.thekidsdentist.com.sg/" />
+        <meta name="twitter:title" content="Paediatric Dentist | Child Dentist | The Kids Dentist" />
+        <meta name="twitter:description" content="In need of child dental/paediatric dental services? Dr Rashid Tahir of The Kids Dentist offers paediatric dentistry. Call our child dentist at 6235-7279 now!" />
+        <meta name="twitter:image" content="https://www.thekidsdentist.com.sg/images/kidstxt.png" />
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+        <script src="js/csi.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+        <!--[if lt IE 8]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+            // function myFunction() {
+
+            //   var dots = document.getElementById("dots");
+
+            //   var moreText = document.getElementById("more");
+
+            //   var btnText = document.getElementById("myBtn");
+
+            //   if (dots.style.display === "none") {
+
+            //     dots.style.display = "inline";
+
+            //     btnText.innerHTML = "Read more";
+
+            //     moreText.style.display = "none";
+
+            //   } else {
+
+            //     dots.style.display = "none";
+
+            //     btnText.innerHTML = "Read less";
+
+            //     moreText.style.display = "inline";
+
+            //   }
+
+            // }
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-549J9JH");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109423838-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-109423838-1");
+        </script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549J9JH" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <center>
+            <div data-include="header.html"></div>
+
+            <div class="menu-n-h">
+                <div class="menu-n">
+                    <ul id="menu">
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="index.html">Home</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px">
+                            <a href="aboutus.html">About Us</a>
+
+                            <ul class="child" style="z-index: 9">
+                                <li class="parent">
+                                    <a href="#">
+                                        Our Dentists
+                                        <span class="expand">Â»</span>
+                                    </a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#dr-rashid-tahir">Dr Rashid Tahir</a></li>
+
+                                        <li><a href="aboutus.html#dr-sylvia-koh">Dr Sylvia Koh</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent">
+                                    <a href="#">
+                                        Our Staff
+                                        <span class="expand">Â»</span>
+                                    </a>
+
+                                    <ul class="child">
+                                        <li><a href="aboutus.html#seryna">Seryna</a></li>
+                                        <li><a href="aboutus.html#dianne">Dianne</a></li>
+                                        <li><a href="aboutus.html#min-yu">Min Yu</a></li>
+                                        <li><a href="aboutus.html#joscelin">Joscelin</a></li>
+                                        <li><a href="aboutus.html#shasha">Shasha</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="parent"><a href="aboutus.html#our-practice">Our Practice</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="services.html">Services</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="gallery.html">Gallery</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="faq.html">FAQ</a></li>
+
+                        <li class="parent" style="font-family: Montserrat, sans-serif; font-size: 17px"><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div class="imgnav-div">
+                <div class="slides">
+                    <img src="images/mainimg-02.png" class="img-mid" />
+
+                    <img src="images/mainimg-03.png" class="img-mid" />
+
+                    <img src="images/mainimg-04.png" class="img-mid" />
+                </div>
+            </div>
+
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h1><font class="welcometxt">Welcome to The Kids Dentist</font></h1>
+                        <br />
+
+                        <span class="msgtext">
+                            1st dedicated Pediatric Dentistry practice
+                            <br />
+                            in Singapore since 2006
+                        </span>
+                    </div>
+
+                    <div data-include="baby-bonus.html"></div>
+                </div>
+            </div>
+
+            <div class="content1-div">
+                <div class="container">
+                    <div class="leftpanelcontent1">
+                        <img src="images/aboutustxt.png" />
+
+                        <p>At The Kids Dentist, we abide by our motto: Fun dentistry for kids. We are a dedicated team of specialist paediatric dentists and dental support staff providing specialised dentistry for infants, children and adolescents in Singapore. We also attend to children with special needs and with complex medical conditions. We are committed to ensure that your child has a positive dental experience each time.</p>
+
+                        <p><a href="aboutus.html" style="float: right; text-decoration: none; padding-top: 15px">Read more</a></p>
+                    </div>
+
+                    <div class="v-separator" style="padding-bottom: 22px"></div>
+
+                    <div class="rightpanelcontent1" style="margin-bottom: 20px">
+                        <img src="images/faqtxt.png" />
+
+                        <ul>
+                            <li>What is a paediatric dentist?</li>
+
+                            <li>What age group of children do you treat at The Kids Dentist?</li>
+
+                            <li>Can I learn more about the staff?</li>
+
+                            <li>When should my child first see a dentist?</li>
+
+                            <li>What are the charges like at The Kids Dentist?</li>
+
+                            <li>Why is primary or "baby" teeth so important?</li>
+                        </ul>
+
+                        <a href="faq.html" style="padding-left: 20px; float: right; text-decoration: none">Read more</a>
+                    </div>
+
+                    <div style="clear: both"></div>
+
+                    <div class="makehr"></div>
+                </div>
+            </div>
+
+            <div class="content2-div">
+                <div class="container">
+                    <div class="containerservdiv">
+                        <img src="images/services.png" style="float: left" />
+                        <br />
+                        <br />
+
+                        <hr style="margin: 2px 0 0 0" />
+                    </div>
+
+                    <div class="containerservdiv">
+                        <p class="content-left">
+                            At The Kids Dentist, we offer a range of
+                            <a href="https://www.thekidsdentist.com.sg/services.html">dental services</a>
+                            for our young patients: from oral disease prevention such as fluoride therapy to restorative treatment such as white fillings and aesthetic white zirconia crowns. While some dental procedures for children are done using local anesthesia where necessary, children who are highly anxious or require extensive dental treatment may benefit from having treatment under laughing gas sedation or general anaesthesia to help them ease their discomfort and stress.
+                        </p>
+                    </div>
+
+                    <div class="content2div-first">
+                        <ul>
+                            <li>Paediatric crowns: White Aesthetic crowns and Stainless Steel crowns</li>
+
+                            <li>Root canal treatment for baby teeth (Pulpotomy and Pulpectomy)</li>
+
+                            <li>White fillings which do not contain mercury</li>
+
+                            <li>Fluoride application (Varnish or Sliver Diamine Fluoride)</li>
+
+                            <li>Sports dentistry and Mouthguards</li>
+
+                            <li>Pit and fissure sealants</li>
+                        </ul>
+                    </div>
+
+                    <div class="content2div-second">
+                        <ul>
+                            <li>Nitrous Oxide âlaughing gasâ sedation and Oral sedation</li>
+
+                            <li>Dental treatment under General Anaesthesia (G.A.)</li>
+
+                            <li>Management of dental cavities with risk assessment</li>
+
+                            <li>Dentistry for sick children</li>
+
+                            <li>Management of fractured teeth</li>
+
+                            <li>Removable appliance for Orthodontics</li>
+                        </ul>
+                    </div>
+
+                    <div class="content2div-third">
+                        <div class="pics"><img src="images/doc1.jpg" width="117" /></div>
+
+                        <div class="pics"><img src="images/doc2.jpg" width="117" /></div>
+
+                        <div style="clear: both"></div>
+
+                        <div class="pics"><img src="images/doc3.jpg" width="117" /></div>
+
+                        <div class="pics"><img src="images/doc4.jpg" width="117" /></div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div data-include="footer.html"></div>
+
+            <script type="text/javascript" src="js/navigation.js"></script>
+            <!--pop up message start-->
+            <!--
+      <div class="popup-wrapper" id="vidoepopup">
+        <div class="popup">
+          <div class="popup-body">
+            <div data-toggle="close-overlay" class="close-x">x</div>
+            <div class="popup-content">
+              <div><img src="images/kidstxt.png" /></div>
+              <h4>Greetings from The Kids Dentist.</h4>
+              <p>We are pleased to inform you that our clinic is in full operation. Weâre following MOHâs strict guidelines on safe distancing and disinfection to keep your family and our staff safe.</p>
+              <p>We seek your kind understanding in this matter.</p>
+            </div>
+          </div>
+        </div>
+        <div class="popup-overlay" data-toggle="close-overlay"></div>
+      </div>
+      <style>
+        .popup-wrapper {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 1001;
+          width: 100%;
+          height: 100%;
+        }
+        .popup-wrapper.active {
+          display: block;
+        }
+        .popup-wrapper.active .popup-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background: rgba(0, 0, 0, 0.6);
+        }
+        .popup-wrapper .popup {
+          display: flex;
+          align-items: center;
+          min-height: calc(100% - 1rem);
+          position: relative;
+          margin: 0 20px;
+        }
+        .popup-wrapper .popup:before {
+          display: block;
+          height: calc(100vh - 1rem);
+          content: "";
+        }
+        .popup-wrapper .popup-body {
+          border: 5px solid #dfeaee;
+          position: relative;
+          z-index: 2;
+          color: #333;
+          background: #f4fafd;
+          box-shadow: 1px 1px 4px #4c4c4c;
+          border-radius: 20px;
+          text-align: center;
+          padding: 30px 20px;
+        }
+        .popup-wrapper .popup-body h4 {
+          font-size: 20px;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          line-height: 1.4;
+          color: #6f9900;
+          text-align-last: center;
+        }
+        .popup-wrapper .popup-body p {
+          font-size: 16px;
+          color: #000;
+          line-height: 1.5;
+          text-align: center;
+        }
+        .popup-wrapper .popup-body a {
+          color: #ffffff;
+          font-size: 12px;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bold;
+          background: #033874;
+          padding: 10px 15px;
+          border-radius: 8px;
+        }
+        .popup-wrapper .popup-body .title {
+          font-size: 34px;
+          color: #0c2252;
+          line-height: 1;
+          font-weight: 300;
+          margin-bottom: 30px;
+        }
+        .popup-wrapper .popup-body .title span {
+          display: inline;
+          color: #0c2252;
+        }
+        .popup-wrapper .close-x {
+          position: absolute;
+          top: 3px;
+          right: 3px;
+          width: 26px;
+          height: 26px;
+          text-align: center;
+          line-height: 20px;
+          cursor: pointer;
+          color: #000;
+          font-size: 16px;
+          background: #fff;
+          border: 1px solid #b3b3b3;
+          box-shadow: 1px 1px 1px #b3b3b3;
+          font-weight: bold;
+          border-radius: 5px;
+        }
+        .popup-wrapper .close-x:hover {
+          background: #efefef;
+        }
+        .popup-wrapper .close-x:active {
+          box-shadow: inset 1px 1px 1px #999;
+        }
+        .popup-wrapper .popup-body .content-left {
+          padding: 20px;
+          float: none;
+          position: relative;
+        }
+        .popup-wrapper .popup-body .content-left img {
+          width: 50%;
+          margin: 0px 25%;
+        }
+        @media (min-width: 576px) {
+          .popup-wrapper .popup {
+            min-height: calc(100% - 3.5rem);
+          }
+          .popup-wrapper .popup-body {
+            max-width: 500px;
+            margin: 1.75rem auto;
+          }
+        }
+        @media (min-width: 992px) {
+          .popup-wrapper .popup-body {
+            max-width: 700px;
+            margin: 1.75rem auto;
+          }
+          .popup-wrapper .popup-body .content-left {
+            padding: 40px;
+            float: none;
+            position: absolute;
+            text-align: left;
+          }
+          .popup-wrapper .popup-body .content-left img {
+            width: 70%;
+            margin: 0px 0px;
+          }
+          .popup-wrapper .popup-body .title span {
+            display: block;
+          }
+          .popup-wrapper .popup-body h4 {
+            font-size: 20px;
+            text-align-last: center;
+          }
+          .popup-wrapper .popup-body .content-right img {
+            border-radius: 10px;
+          }
+          .popup-wrapper .popup-body .title {
+            font-size: 60px;
+          }
+          .popup-wrapper .popup-body a {
+            padding: 10px 30px;
+          }
+        }
+      </style>
+      <script>
+        $(function () {
+          $("#vidoepopup").toggleClass("active");
+
+          $("[data-toggle='close-overlay']").click(function (e) {
+            e.preventDefault();
+            $(this).closest(".popup-wrapper").toggleClass("active");
+          });
+        });
+      </script>
+      -->
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "The Kids Dentist",
+                    "image": "",
+                    "@id": "https://www.thekidsdentist.com.sg/",
+                    "url": "https://www.thekidsdentist.com.sg/",
+                    "telephone": "6235 7279",
+                    "priceRange": "$$",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Camden Medical Centre, #13-06 One Orchard Boulevard",
+                        "addressLocality": "Singapore",
+                        "postalCode": "248649",
+                        "addressCountry": "SG"
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 1.3032316,
+                        "longitude": 103.8239372
+                    },
+                    "openingHoursSpecification": [
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                            "opens": "09:00",
+                            "closes": "17:30"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Saturday",
+                            "opens": "09:00",
+                            "closes": "12:30"
+                        }
+                    ]
+                }
+            </script>
+        </center>
+    </body>
+</html>
+
+
+=== PAGE: https://www.thekidsdentist.com.sg/about-us ===
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="../" />
+        <title>The Kids Dentist - Home</title>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <script src="js/csi.min.js" type="text/javascript"></script>
+         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+         <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33694304-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+    <center>
+         <div data-include="header.html"></div>
+         <div class="navigation-div">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="clear:both;"></div>
+            <div class="imgnav-div">
+                <img src="images/mainimg.png"  class="img-mid"/>
+            </div>
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h3><font class="welcometxt">Welcome to The Kids Dentist</font></h3>
+                        <span class="msgtext">Specialist in Paediatric Dentistry</span>
+                        
+                    </div>
+                      <div data-include="drinfo.html"></div>
+                </div>
+                
+            </div>
+         <div class="content1-div" style="color : #E7E7E7;">
+                <div class="container">
+                    <div>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            	<tr>
+                	<td width="70%" valign="top">
+                    	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="notfoundclas">
+                        	<tr><td height="20"></td></tr>
+                        	<tr>
+                            	<td><span style="font-size:60px; font-color:#000000; font-weight:bold;">Error 404</span><br /><span style="font-size:20px; line-height:50px;">The requested page was not found</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td style="font-size:16px; line-height:22px;">
+                                	<b>You may not be able to visit this page because of:</b>
+                                    <ul type="disc">
+                                    	<li>an out-of-date bookmark/favorite</li>
+                                        <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+                                        <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+                                        <li>the requested resource was not found</li>
+                                        <li>an error has occurred while processing your request</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><a href="http://www.thekidsdentist.com.sg/" style="font-size:20px; color:#009dfb; text-decoration:none;">Return to the homepage</a></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                        </table>
+                    </td>
+                    <td width="30%"><img src="images/404_img.png" width="365" height="397" border="0" /></td>
+                </tr>
+            </table>
+                    
+                    </div>
+                </div>
+            </div>
+             
+     <div data-include="footer.html"></div>
+  <script type="text/javascript" src="js/navigation.js"></script>
+ </center>
+    </body>
+</html>
+
+
+=== PAGE: https://www.thekidsdentist.com.sg/services ===
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="../" />
+        <title>The Kids Dentist - Home</title>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <script src="js/csi.min.js" type="text/javascript"></script>
+         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+         <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33694304-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+    <center>
+         <div data-include="header.html"></div>
+         <div class="navigation-div">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="clear:both;"></div>
+            <div class="imgnav-div">
+                <img src="images/mainimg.png"  class="img-mid"/>
+            </div>
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h3><font class="welcometxt">Welcome to The Kids Dentist</font></h3>
+                        <span class="msgtext">Specialist in Paediatric Dentistry</span>
+                        
+                    </div>
+                      <div data-include="drinfo.html"></div>
+                </div>
+                
+            </div>
+         <div class="content1-div" style="color : #E7E7E7;">
+                <div class="container">
+                    <div>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            	<tr>
+                	<td width="70%" valign="top">
+                    	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="notfoundclas">
+                        	<tr><td height="20"></td></tr>
+                        	<tr>
+                            	<td><span style="font-size:60px; font-color:#000000; font-weight:bold;">Error 404</span><br /><span style="font-size:20px; line-height:50px;">The requested page was not found</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td style="font-size:16px; line-height:22px;">
+                                	<b>You may not be able to visit this page because of:</b>
+                                    <ul type="disc">
+                                    	<li>an out-of-date bookmark/favorite</li>
+                                        <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+                                        <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+                                        <li>the requested resource was not found</li>
+                                        <li>an error has occurred while processing your request</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><a href="http://www.thekidsdentist.com.sg/" style="font-size:20px; color:#009dfb; text-decoration:none;">Return to the homepage</a></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                        </table>
+                    </td>
+                    <td width="30%"><img src="images/404_img.png" width="365" height="397" border="0" /></td>
+                </tr>
+            </table>
+                    
+                    </div>
+                </div>
+            </div>
+             
+     <div data-include="footer.html"></div>
+  <script type="text/javascript" src="js/navigation.js"></script>
+ </center>
+    </body>
+</html>
+
+
+=== PAGE: https://www.thekidsdentist.com.sg/gallery ===
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="../" />
+        <title>The Kids Dentist - Home</title>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <script src="js/csi.min.js" type="text/javascript"></script>
+         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+         <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33694304-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+    <center>
+         <div data-include="header.html"></div>
+         <div class="navigation-div">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="clear:both;"></div>
+            <div class="imgnav-div">
+                <img src="images/mainimg.png"  class="img-mid"/>
+            </div>
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h3><font class="welcometxt">Welcome to The Kids Dentist</font></h3>
+                        <span class="msgtext">Specialist in Paediatric Dentistry</span>
+                        
+                    </div>
+                      <div data-include="drinfo.html"></div>
+                </div>
+                
+            </div>
+         <div class="content1-div" style="color : #E7E7E7;">
+                <div class="container">
+                    <div>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            	<tr>
+                	<td width="70%" valign="top">
+                    	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="notfoundclas">
+                        	<tr><td height="20"></td></tr>
+                        	<tr>
+                            	<td><span style="font-size:60px; font-color:#000000; font-weight:bold;">Error 404</span><br /><span style="font-size:20px; line-height:50px;">The requested page was not found</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td style="font-size:16px; line-height:22px;">
+                                	<b>You may not be able to visit this page because of:</b>
+                                    <ul type="disc">
+                                    	<li>an out-of-date bookmark/favorite</li>
+                                        <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+                                        <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+                                        <li>the requested resource was not found</li>
+                                        <li>an error has occurred while processing your request</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><a href="http://www.thekidsdentist.com.sg/" style="font-size:20px; color:#009dfb; text-decoration:none;">Return to the homepage</a></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                        </table>
+                    </td>
+                    <td width="30%"><img src="images/404_img.png" width="365" height="397" border="0" /></td>
+                </tr>
+            </table>
+                    
+                    </div>
+                </div>
+            </div>
+             
+     <div data-include="footer.html"></div>
+  <script type="text/javascript" src="js/navigation.js"></script>
+ </center>
+    </body>
+</html>
+
+
+=== PAGE: https://www.thekidsdentist.com.sg/faq ===
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="../" />
+        <title>The Kids Dentist - Home</title>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <script src="js/csi.min.js" type="text/javascript"></script>
+         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+         <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33694304-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+    <center>
+         <div data-include="header.html"></div>
+         <div class="navigation-div">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="clear:both;"></div>
+            <div class="imgnav-div">
+                <img src="images/mainimg.png"  class="img-mid"/>
+            </div>
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h3><font class="welcometxt">Welcome to The Kids Dentist</font></h3>
+                        <span class="msgtext">Specialist in Paediatric Dentistry</span>
+                        
+                    </div>
+                      <div data-include="drinfo.html"></div>
+                </div>
+                
+            </div>
+         <div class="content1-div" style="color : #E7E7E7;">
+                <div class="container">
+                    <div>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            	<tr>
+                	<td width="70%" valign="top">
+                    	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="notfoundclas">
+                        	<tr><td height="20"></td></tr>
+                        	<tr>
+                            	<td><span style="font-size:60px; font-color:#000000; font-weight:bold;">Error 404</span><br /><span style="font-size:20px; line-height:50px;">The requested page was not found</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td style="font-size:16px; line-height:22px;">
+                                	<b>You may not be able to visit this page because of:</b>
+                                    <ul type="disc">
+                                    	<li>an out-of-date bookmark/favorite</li>
+                                        <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+                                        <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+                                        <li>the requested resource was not found</li>
+                                        <li>an error has occurred while processing your request</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><a href="http://www.thekidsdentist.com.sg/" style="font-size:20px; color:#009dfb; text-decoration:none;">Return to the homepage</a></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                        </table>
+                    </td>
+                    <td width="30%"><img src="images/404_img.png" width="365" height="397" border="0" /></td>
+                </tr>
+            </table>
+                    
+                    </div>
+                </div>
+            </div>
+             
+     <div data-include="footer.html"></div>
+  <script type="text/javascript" src="js/navigation.js"></script>
+ </center>
+    </body>
+</html>
+
+
+=== PAGE: https://www.thekidsdentist.com.sg/contact-us ===
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="../" />
+        <title>The Kids Dentist - Home</title>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="user-scalable=no" />-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen , print" />
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <script src="js/csi.min.js" type="text/javascript"></script>
+         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+         <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+          <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33694304-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+    <center>
+         <div data-include="header.html"></div>
+         <div class="navigation-div">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="clear:both;"></div>
+            <div class="imgnav-div">
+                <img src="images/mainimg.png"  class="img-mid"/>
+            </div>
+            <div class="firstbody-div">
+                <div class="container">
+                    <div class="firstbodytxt">
+                        <h3><font class="welcometxt">Welcome to The Kids Dentist</font></h3>
+                        <span class="msgtext">Specialist in Paediatric Dentistry</span>
+                        
+                    </div>
+                      <div data-include="drinfo.html"></div>
+                </div>
+                
+            </div>
+         <div class="content1-div" style="color : #E7E7E7;">
+                <div class="container">
+                    <div>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            	<tr>
+                	<td width="70%" valign="top">
+                    	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="notfoundclas">
+                        	<tr><td height="20"></td></tr>
+                        	<tr>
+                            	<td><span style="font-size:60px; font-color:#000000; font-weight:bold;">Error 404</span><br /><span style="font-size:20px; line-height:50px;">The requested page was not found</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td style="font-size:16px; line-height:22px;">
+                                	<b>You may not be able to visit this page because of:</b>
+                                    <ul type="disc">
+                                    	<li>an out-of-date bookmark/favorite</li>
+                                        <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+                                        <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+                                        <li>the requested resource was not found</li>
+                                        <li>an error has occurred while processing your request</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                            	<td><a href="http://www.thekidsdentist.com.sg/" style="font-size:20px; color:#009dfb; text-decoration:none;">Return to the homepage</a></td>
+                            </tr>
+                            <tr><td height="20"></td></tr>
+                        </table>
+                    </td>
+                    <td width="30%"><img src="images/404_img.png" width="365" height="397" border="0" /></td>
+                </tr>
+            </table>
+                    
+                    </div>
+                </div>
+            </div>
+             
+     <div data-include="footer.html"></div>
+  <script type="text/javascript" src="js/navigation.js"></script>
+ </center>
+    </body>
+</html>
+
+
+
